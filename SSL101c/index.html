@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh sách câu hỏi</title>
+    <!-- Link to Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFy4XP9cuFz/XLhc/1y4XP9cuFz/XLhc/wAAAABOvE4HTbtNCQAAAABcuFz/XLhc/1y4XP9cuFz/XLhc/1y4XP9cuFz/XLhc/y5cLm4AAAAAAAAAAAAAAABcuFz/XLhc8Vy4XPBcuFz/AAAAAAAAAAAAAAAALlwubly4XP9cuFz/XLhc/wAAAABcuFz/XLhc/1y4XP9cuFz/XLhc/1y4XPFcuFzwXLhc/1y4XP9cuFz/XLhc/1y4XP8AAAAAXLhc/1y4XP8AAAAAXLhc/1y4XP9cuFz/XLhc/1y4XP9cuFzxXLhc8Fy4XP9cuFz/XLhc/1y4XP9cuFz/AAAAAFy4XP9cuFz/AAAAAFy4XP9cuFz/XLhc/1y4XP9cuFz/XLhc8Vy4XPBcuFz/XLhc/1y4XP9cuFz/XLhc/wAAAABcuFz/XLhc/wAAAABcuFz/XLhc/1y4XP9cuFz/XLhc/1y4XPFcuFzwXLhc/1y4XP9cuFz/XLhc/1y4XP8AAAAAXLhc/1y4XP8AAAAAXLhc/1y4XP9cuFz/XLhc/1y4XP9cuFzxXLhc8Fy4XP9cuFz/XLhc/1y4XP9cuFz/AAAAAFy4XP9cuFz/AAAAAFy4XP9cuFz/XLhc/1y4XP9cuFz/XLhc8Vy4XPBcuFz/XLhc/1y4XP9cuFz/XLhc/wAAAABcuFz/XLhc/wAAAABcuFz/XLhc/1y4XP9cuFz/XLhc/1y4XPFcuFzwXLhc/1y4XP9cuFz/XLhc/1y4XP8AAAAAXLhc/1y4XP8AAAAAXLhc/1y4XP9cuFz/XLhc/1y4XP9cuFzwXLhc6Vy4XP9cuFz/XLhc/1y4XP9cuFz/AAAAAFy4XP8AAAAAAAAAAFy4XP9cuFz/XLhc/1y4XP9cuFz/AAAAAAAAAABcuFz/XLhc/1y4XP9cuFz/XLhc/wAAAAAAAAAAAAAAAAAAAABcuFz/XLhc/1y4XP9YuFhRAAAAAAAAAAAAAAAAAAAAAFy5XElcuFz/XLhc/1y4XP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAADwAAAPDwAAEACAABAAgAAQAIAAEACAABAAgAAQAIAAEACAABAAgAAwYMAAMfjAAD//wAA//8AAA=="
+      rel="icon"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+      <h1 class="text-2xl font-bold mb-8 text-center md:text-3xl">
+        Danh sách câu hỏi
+      </h1>
+      <i
+        id="toggleThemeButton"
+        class="fas fa-sun absolute right-4 top-10 text-2xl md:top-4"
+        style="cursor: pointer"
+      ></i>
+      <button
+        id="scrollTopButton"
+        class="fixed bottom-2 right-2 bg-blue-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-blue-600 focus:outline-none focus:bg-blue-600 hidden"
+      >
+        <i class="fas fa-arrow-up"></i>
+      </button>
+      <div class="relative">
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Tìm theo câu hỏi hoặc lựa chọn"
+          class="w-full mb-4 px-4 py-2 rounded-md border-gray-300 font-semibold border-2 border-black focus:outline-none focus:ring-red-500 focus:border-red-300"
+        />
+        <button
+          id="clearButton"
+          class="absolute hidden right-4 top-2.5 focus:outline-none"
+        >
+          <i class="fas fa-times text-2xl text-gray-400"></i>
+        </button>
+      </div>
+      <div
+        id="searchResults"
+        class="hidden mt-4 text-center text-4xl text-black font-semibold"
+      >
+        Không tìm thấy câu hỏi hoặc câu trả lời
+      </div>
+      <div
+        id="questions"
+        class="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3"
+      ></div>
+    </div>
+
+    <!-- Script to fetch and display questions -->
+    <script src="script.js"></script>
+  </body>
+</html>

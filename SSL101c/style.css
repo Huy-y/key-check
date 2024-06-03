@@ -1,0 +1,76 @@
+.question-card {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* Chế độ sáng */
+  body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Chế độ tối */
+  .dark {
+    background-color: #2f2f2f;
+    color: #ffffff;
+  }
+  
+  /* Chế độ sáng */
+  .fa-sun {
+    color: #ffc107;
+    /* Màu của biểu tượng mặt trời */
+  }
+  
+  /* Chế độ tối */
+  .fa-moon {
+    color: #ffffff;
+    /* Màu của biểu tượng mặt trăng */
+  }
+  
+  /* Chế độ sáng */
+  .dark .question-card {
+    border-color: #ffffff;
+    background-color: #4d4d4d;
+    /* Màu nền của card trong chế độ tối */
+    color: #ffffff;
+    /* Màu chữ của card trong chế độ tối */
+  }
+  
+  .dark #searchInput {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    /* Màu nền của card trong chế độ tối */
+    color: #000000;
+    /* Màu chữ của card trong chế độ tối */
+  }
+  
+  .dark .question-choice {
+    color: #ffe600;
+    /* Màu chữ trong chế độ tối */
+  }
+  
+  .dark .A,
+  .dark .B,
+  .dark .C,
+  .dark .D {
+    color: #ffffff;
+  }
+  
+  /* Chế độ tối */
+  .question-card {
+    background-color: #ffffff;
+    /* Màu nền của card trong chế độ sáng */
+    color: #000000;
+    /* Màu chữ của card trong chế độ sáng */
+  }
+  
+  .dark .divider {
+    border: 0.5px dashed #ffffff;
+    /* Màu và kiểu đường phân cách */
+  }
+  
+  .divider {
+    border: 0.5px dashed #000000;
+    /* Màu và kiểu đường phân cách */
+  }
