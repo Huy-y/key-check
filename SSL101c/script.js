@@ -19,11 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
         );
 
         const questionId = document.createElement("p");
-        questionId.classList.add("font-bold", "text-center", "text-xl");
+        questionId.classList.add("text-center", "text-xl");
         questionId.textContent = "Câu hỏi " + question.ID;
 
         const questionText = document.createElement("div");
-        questionText.classList.add("mt-2", "font-semibold", "question-text"); // Add class for search
+        questionText.classList.add("mt-2", "question-text"); // Add class for search
         questionText.textContent = question.Question;
 
         const answerText = document.createElement("div");
@@ -31,12 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const B = document.createElement("div");
         const C = document.createElement("div");
         const D = document.createElement("div");
-        answerText.classList.add(
-          "mt-2",
-          "font-bold",
-          "question-choice",
-          "text-blue-500"
-        );
+        answerText.classList.add("mt-2", "question-choice", "text-blue-500");
         A.classList.add("mt-2", "text-black");
         B.classList.add("mt-4", "text-black");
         C.classList.add("mt-4", "text-black");
@@ -48,12 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         D.textContent = "D) " + question.Choices.D;
 
         const explainText = document.createElement("div");
-        explainText.classList.add(
-          "mt-2",
-          "font-bold",
-          "text-red-500",
-          "explain-text"
-        );
+        explainText.classList.add("mt-2", "text-red-500", "explain-text");
         explainText.innerHTML =
           "Đáp án : " +
           "<br>" +
