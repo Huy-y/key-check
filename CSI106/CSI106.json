@@ -1,0 +1,2847 @@
+[
+    {
+        "ID": 1,
+        "Question": "The _______ model is the basis for today's computers.",
+        "Choices": {
+            "A": "Leibnitz",
+            "B": "von Neumann",
+            "C": "Pascal",
+            "D": "Charles Babbage"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 2,
+        "Question": "In a computer, the _______ subsystem stores data and programs.",
+        "Choices": {
+            "A": "ALU",
+            "B": "input/output",
+            "C": "memory",
+            "D": "control unit"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 3,
+        "Question": "In a computer, the _______ subsystem performs calculations and logical opera-tions.",
+        "Choices": {
+            "A": "ALU",
+            "B": "input/output",
+            "C": "memory",
+            "D": "control unit"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 4,
+        "Question": "In a computer, the _______ subsystem accepts data and programs and sends pro-cessing results to output devices.",
+        "Choices": {
+            "A": "ALU",
+            "B": "input/output",
+            "C": "memory",
+            "D": "control unit"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 5,
+        "Question": "In a computer, the _______ subsystem serves as a manager of the other subsys-tems.",
+        "Choices": {
+            "A": "ALU",
+            "B": "input/output",
+            "C": "memory",
+            "D": "control unit"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 6,
+        "Question": "According to the von Neumann model, _______ are stored in memory.",
+        "Choices": {
+            "A": "only data",
+            "B": "only programs",
+            "C": "data and programs",
+            "D": "neither data nor programs"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 7,
+        "Question": "A step-by-step solution to a problem is called _______.",
+        "Choices": {
+            "A": "hardware",
+            "B": "an operating system",
+            "C": "a computer language",
+            "D": "an algorithm"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 8,
+        "Question": "FORTRAN and COBOL are examples of _______.",
+        "Choices": {
+            "A": "hardware",
+            "B": "operating systems",
+            "C": "computer languages",
+            "D": "algorithms"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 9,
+        "Question": "A 17th-century computing machine that could perform addition and subtraction was the _______.",
+        "Choices": {
+            "A": "Pascaline",
+            "B": "Jacquard loom",
+            "C": "Analytical Engine",
+            "D": "Babbage machine"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 10,
+        "Question": "_______ is a set of instructions in a computer language that tells the computer what to do with data.",
+        "Choices": {
+            "A": "An operating system",
+            "B": "An algorithm",
+            "C": "A data processor",
+            "D": "A program"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 11,
+        "Question": "_______ is the design and writing of a program in structured form.",
+        "Choices": {
+            "A": "Software engineering",
+            "B": "Hardware engineering",
+            "C": "Algorithm development",
+            "D": "Instructional architecture"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 12,
+        "Question": "The first electronic special-purpose computer was called _______.",
+        "Choices": {
+            "A": "Pascal",
+            "B": "Pascaline",
+            "C": "ABC",
+            "D": "ENIAC"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 13,
+        "Question": "One of the first computers based on the von Neumann model was called _______.",
+        "Choices": {
+            "A": "Pascal",
+            "B": "Pascaline",
+            "C": "ABC",
+            "D": "EDVAC"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 14,
+        "Question": "The first computing machine to use the idea of storage and programming was called _______.",
+        "Choices": {
+            "A": "the Madeline",
+            "B": "EDVAC",
+            "C": "the Babbage machine",
+            "D": "the Jacquard loom"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 15,
+        "Question": "_______ separated the programming task from computer operation tasks.",
+        "Choices": {
+            "A": "Algorithms",
+            "B": "Data processors",
+            "C": "High-level programming languages",
+            "D": "Operating systems"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 16,
+        "Question": "1. The base of the decimal number system is ____.",
+        "Choices": {},
+        "Answer": "C"
+    },
+    {
+        "ID": 17,
+        "Question": "2. The base of the binary number system is ____.",
+        "Choices": {},
+        "Answer": "A"
+    },
+    {
+        "ID": 18,
+        "Question": "3. The base of the octal number system is ____.",
+        "Choices": {},
+        "Answer": "B"
+    },
+    {
+        "ID": 19,
+        "Question": "4. The base of the hexadecimal number system is ____.",
+        "Choices": {},
+        "Answer": "D"
+    },
+    {
+        "ID": 20,
+        "Question": "5. When converting a decimal integer to base b, we repeatedly _____ b.",
+        "Choices": {},
+        "Answer": "A"
+    },
+    {
+        "ID": 21,
+        "Question": "6. When converting a binary fraction to decimal, we repeatedly ____.",
+        "Choices": {},
+        "Answer": "B"
+    },
+    {
+        "ID": 22,
+        "Question": "7. Which of the following representations is erroneous?",
+        "Choices": {},
+        "Answer": "B"
+    },
+    {
+        "ID": 23,
+        "Question": "8. Which of the following representations is erroneous?",
+        "Choices": {},
+        "Answer": "A"
+    },
+    {
+        "ID": 24,
+        "Question": "9. Which of the following representations is erroneous?",
+        "Choices": {},
+        "Answer": "C"
+    },
+    {
+        "ID": 25,
+        "Question": "10. Which of the following representations is erroneous?",
+        "Choices": {},
+        "Answer": "D"
+    },
+    {
+        "ID": 26,
+        "Question": "11. Which of the following is equivalent to 12 in decimal?",
+        "Choices": {},
+        "Answer": "B"
+    },
+    {
+        "ID": 27,
+        "Question": "12. Which of the following is equivalent to 24 in decimal?",
+        "Choices": {},
+        "Answer": "A"
+    },
+    {
+        "ID": 28,
+        "Question": "13. Convert the binary number 1001 to decimal. The answer is:",
+        "Choices": {},
+        "Answer": "B"
+    },
+    {
+        "ID": 29,
+        "Question": "14. Convert the binary number 101010 to hexadecimal:",
+        "Choices": {},
+        "Answer": "C"
+    },
+    {
+        "ID": 30,
+        "Question": "15. Convert the hexadecimal number 1B to decimal:",
+        "Choices": {},
+        "Answer": "C"
+    },
+    {
+        "ID": 31,
+        "Question": "A byte consists of _______ bits.",
+        "Choices": {
+            "A": "2",
+            "B": "4",
+            "C": "8",
+            "D": "16"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 32,
+        "Question": "In a set of 64 symbols, each symbol requires a bit pattern length of _______ bits.",
+        "Choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 33,
+        "Question": "How many symbols can be represented by a bit pattern with ten bits?",
+        "Choices": {
+            "A": "128",
+            "B": "256",
+            "C": "512",
+            "D": "1024"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 34,
+        "Question": "If the ASCII code for E is 1000101, then the ASCII code for e is _______. An-swer the question without consulting the ASCII table.",
+        "Choices": {
+            "A": "1000110",
+            "B": "1000111",
+            "C": "0000110",
+            "D": "1100101"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 35,
+        "Question": "A 32-bit code called _______ represents symbols in all languages.",
+        "Choices": {
+            "A": "ANSI",
+            "B": "Unicode",
+            "C": "EBCDIC",
+            "D": "Extended ASCII"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 36,
+        "Question": "An image can be represented in a computer using the _______ method.",
+        "Choices": {
+            "A": "bitmap graphic",
+            "B": "vector graphic",
+            "C": "only",
+            "D": "either bitmap or vector graphic"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 37,
+        "Question": "In the _______ graphic method of representing an image in a computer, each pixel is assigned a bit patterns.",
+        "Choices": {
+            "A": "bitmap",
+            "B": "vector",
+            "C": "quantized",
+            "D": "binary"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 38,
+        "Question": "In the _______ graphic method of representing an image in a computer, the image is decomposed into a combination of geometrical figures.",
+        "Choices": {
+            "A": "bitmap",
+            "B": "vector",
+            "C": "quantized",
+            "D": "binary"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 39,
+        "Question": "In the _______ graphic method of representing an image in a computer, re-scaling of the image creates a ragged or grainy image.",
+        "Choices": {
+            "A": "bitmap",
+            "B": "vector",
+            "C": "quantized",
+            "D": "binary"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 40,
+        "Question": "Assume a new Excess system uses 17 bits to represent the exponent section. What is he bias value in this system?",
+        "Choices": {
+            "A": "17",
+            "B": "16",
+            "C": "65535",
+            "D": "65536"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 41,
+        "Question": "Which number representation method is often used to store the exponential value of a fractional part?",
+        "Choices": {
+            "A": "unsigned integers",
+            "B": "two's complement",
+            "C": "Excess",
+            "D": "ten's complement"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 42,
+        "Question": "In an Excess conversion, we _______ the number to be converted.",
+        "Choices": {
+            "A": "add the bias number to",
+            "B": "the bias number from",
+            "C": "multiply the bias number by",
+            "D": "divide"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 43,
+        "Question": "When a fractional part is normalized, the computer stores the _______.",
+        "Choices": {
+            "A": "only the sign",
+            "B": "only the exponent",
+            "C": "only the mantissa",
+            "D": "the sign, exponent, and mantissa"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 44,
+        "Question": "The precision of the fractional part of a number stored in a computer is defined by the _______.",
+        "Choices": {
+            "A": "sign",
+            "B": "exponent",
+            "C": "mantissa",
+            "D": "last digit"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 45,
+        "Question": "The combination of sign and mantissa of a real number in IEEE standard float-ing point format is stored as an integer in the ____________ representation.",
+        "Choices": {
+            "A": "unsigned",
+            "B": "sign-and-magnitude",
+            "C": "two's complement",
+            "D": "one's complement"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 46,
+        "Question": "1. _______ is an arithmetic operation.",
+        "Choices": {
+            "A": "The exclusive OR",
+            "B": "The unary NOT",
+            "C": "Subtraction",
+            "D": "The binary AND"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 47,
+        "Question": "2. _______ is a logical bit operator.",
+        "Choices": {
+            "A": "The exclusive OR",
+            "B": "The unary NOT",
+            "C": "The binary AND",
+            "D": "exclusive OR, unary NOT, or binary AND"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 48,
+        "Question": "3. The _______ method of integer representation is the most common method for storing integers in computer memory.",
+        "Choices": {
+            "A": "sign-and-magnitude",
+            "B": "one's complement",
+            "C": "two's complement",
+            "D": "unsigned integers"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 49,
+        "Question": "4. In two's complement addition, if there is a final carry after the left most column addition, _______.",
+        "Choices": {
+            "A": "add it to the right most column",
+            "B": "add it to the left most column",
+            "C": "discard it",
+            "D": "increase the bit length"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 50,
+        "Question": "5. For an 8-bit allocation, the smallest decimal number that can be represented in two's complement form is _______.",
+        "Choices": {
+            "A": "-8",
+            "B": "-127",
+            "C": "-128",
+            "D": "-256"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 51,
+        "Question": "6. For an 8-bit allocation, the largest decimal number that can be represented in two's complement form is _______.",
+        "Choices": {
+            "A": "8",
+            "B": "127",
+            "C": "128",
+            "D": "256"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 52,
+        "Question": "7. In two's complement representation with a 4-bit allocation, we get _______ when we add 1 to 7.",
+        "Choices": {
+            "A": "8",
+            "B": "1",
+            "C": "-7",
+            "D": "-8"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 53,
+        "Question": "8. In two's complement representation with a 4-bit allocation, we get _______ when we add 5 to 5.",
+        "Choices": {
+            "A": "-5",
+            "B": "-6",
+            "C": "-7",
+            "D": "10"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 54,
+        "Question": "9. If the exponent in Excess_127 is binary 10000101, the exponent in decimal is _______.",
+        "Choices": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 55,
+        "Question": "10. If we are adding two numbers, one of which has an exponent value of 7 and the other an exponent value of 9, we need to shift the decimal point of the smaller number _______.",
+        "Choices": {
+            "A": "one place to the left",
+            "B": "one place to the right",
+            "C": "two places to the left",
+            "D": "two places to the right"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 56,
+        "Question": "11. _______ operator (s) takes two inputs to produce one output.",
+        "Choices": {
+            "A": "Only AND",
+            "B": "Only OR",
+            "C": "Only XOR",
+            "D": "AND, OR, or XOR"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 57,
+        "Question": "12. The unary _______ operator inverts its single input.",
+        "Choices": {
+            "A": "AND",
+            "B": "OR",
+            "C": "NOT",
+            "D": "XOR"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 58,
+        "Question": "13. _______ operator (s), if the input is two 0s, the output is 0.",
+        "Choices": {
+            "A": "In only AND",
+            "B": "In only OR",
+            "C": "In only XOR",
+            "D": "In AND, OR, or XOR"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 59,
+        "Question": "14. _______ operator (s), if the input is two 1s, the output is 0.",
+        "Choices": {
+            "A": "In only AND",
+            "B": "In only OR",
+            "C": "In only XOR",
+            "D": "In AND, OR, or XOR"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 60,
+        "Question": "15. For the binary AND operation, only an input of _______ gives an output of 1.",
+        "Choices": {
+            "A": "two 0s",
+            "B": "two 1s",
+            "C": "one 0 and one 1",
+            "D": "two 2s"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 61,
+        "Question": "16. For the binary OR operation, only an input of _______ gives an output of 0.",
+        "Choices": {
+            "A": "two 0s",
+            "B": "two 1s",
+            "C": "one 0 and one 1",
+            "D": "two 2s"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 62,
+        "Question": "17. We use a bit pattern called a _______ to modify another bit pattern.",
+        "Choices": {
+            "A": "mask",
+            "B": "carry",
+            "C": "float",
+            "D": "byte"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 63,
+        "Question": "18. To flip all the bits of a bit pattern, make a mask of all 1s and then _______ the bit pattern and the mask.",
+        "Choices": {
+            "A": "AND",
+            "B": "OR",
+            "C": "XOR",
+            "D": "NOT"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 64,
+        "Question": "19. To un-set (force to 0) all the bits of a bit pattern, make a mask of all 0s and then _______ the bit pattern and the mask.",
+        "Choices": {
+            "A": "AND",
+            "B": "OR",
+            "C": "XOR",
+            "D": "NOT"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 65,
+        "Question": "20. To set (force to 1) all the bits of a bit pattern, make a mask of all 1s and then _______ the bit pattern and the mask.",
+        "Choices": {
+            "A": "AND",
+            "B": "OR",
+            "C": "XOR",
+            "D": "NOT"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 66,
+        "Question": "1. The TCP/IP model has _______ layers.",
+        "Choices": {
+            "A": "five",
+            "B": "six",
+            "C": "seven",
+            "D": "eight"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 67,
+        "Question": "2. The _______ layer of the TCP/IP protocol suite provides services for end users.",
+        "Choices": {
+            "A": "data-link",
+            "B": "transport",
+            "C": "application",
+            "D": "physical"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 68,
+        "Question": "3. The _______ layer of the TCP/IP protocol suite transmits a bit stream over a physical medium.",
+        "Choices": {
+            "A": "physical",
+            "B": "data-link",
+            "C": "network",
+            "D": "transport"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 69,
+        "Question": "4. The _______ layer of the TCP/IP protocol suite is responsible for node-to-node delivery of a frame between two adjacent nodes.",
+        "Choices": {
+            "A": "transport",
+            "B": "network",
+            "C": "data-link",
+            "D": "session"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 70,
+        "Question": "5. The _______ layer of the TCP/IP protocol suite is responsible for source-to-destination delivery of the entire message.",
+        "Choices": {
+            "A": "transport",
+            "B": "network",
+            "C": "data-link",
+            "D": "session"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 71,
+        "Question": "6. What is the domain name in the e mail address kayla@nasa.gov?",
+        "Choices": {
+            "A": "kayla",
+            "B": "kayla@nasa.gov",
+            "C": "nasa.gov",
+            "D": "gov"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 72,
+        "Question": "7. Which physical topology uses a hub or switch?",
+        "Choices": {
+            "A": "bus",
+            "B": "ring",
+            "C": "star",
+            "D": "bus and ring"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 73,
+        "Question": "8. IP addresses are currently _______ bits in length.",
+        "Choices": {
+            "A": "4",
+            "B": "8",
+            "C": "32",
+            "D": "40"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 74,
+        "Question": "9. _______ protocol (s) is one of the protocols in the transport layer.",
+        "Choices": {
+            "A": "Only TCP",
+            "B": "Only UDP",
+            "C": "Only SCTP",
+            "D": "TCP, UDP, and SCTP"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 75,
+        "Question": "10. _______ is a protocol for file transfer.",
+        "Choices": {
+            "A": "FTP",
+            "B": "SMTP",
+            "C": "TELNET",
+            "D": "HTTP"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 76,
+        "Question": "11. _______ is a protocol for e mail services.",
+        "Choices": {
+            "A": "FTP",
+            "B": "SMTP",
+            "C": "TELNET",
+            "D": "HTTP"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 77,
+        "Question": "12. _______ is a protocol for accessing and transferring documents on the WWW.",
+        "Choices": {
+            "A": "FTP",
+            "B": "SMTP",
+            "C": "TELNET",
+            "D": "HTTP"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 78,
+        "Question": "13. Every computer looking to access the Internet would be known as this",
+        "Choices": {
+            "A": "client",
+            "B": "desktop",
+            "C": "hub",
+            "D": "server"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 79,
+        "Question": "14. Identifies company or commercial sites",
+        "Choices": {
+            "A": ".org",
+            "B": ".com",
+            "C": ".gov",
+            "D": ".edu"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 80,
+        "Question": "15. what is indicated when the domain name has only two letters like .us, .uk, .au, .mx, or .ca",
+        "Choices": {
+            "A": "invalid domain",
+            "B": "private domain",
+            "C": "secure domain",
+            "D": "country domain"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 81,
+        "Question": "1. _______ is a program that facilitates the execution of other programs.",
+        "Choices": {
+            "A": "An operating system",
+            "B": "Hardware",
+            "C": "A queue",
+            "D": "An application program"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 82,
+        "Question": "2. _______ supervises the activity of each component in a computer system.",
+        "Choices": {
+            "A": "An operating system",
+            "B": "Hardware",
+            "C": "A queue",
+            "D": "An application program"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 83,
+        "Question": "3. Multi-programming requires a _______ operating-system.",
+        "Choices": {
+            "A": "batch",
+            "B": "time-sharing",
+            "C": "parallel",
+            "D": "distributed"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 84,
+        "Question": "4. _______ is multi-programming with swapping.",
+        "Choices": {
+            "A": "Partitioning",
+            "B": "Paging",
+            "C": "Demand paging",
+            "D": "Queuing"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 85,
+        "Question": "5. _______ is multi-programming without swapping.",
+        "Choices": {
+            "A": "Partitioning",
+            "B": "Virtual memory",
+            "C": "Demand paging",
+            "D": "Queuing"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 86,
+        "Question": "6. In _______, only one program can reside in memory for execution.",
+        "Choices": {
+            "A": "mono-programming",
+            "B": "multi-programming",
+            "C": "partitioning",
+            "D": "paging"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 87,
+        "Question": "7. _______ is a multi-programming method in which multiple programs are entirely in memory with each program occupying a contiguous space.",
+        "Choices": {
+            "A": "Partitioning",
+            "B": "Paging",
+            "C": "Demand paging",
+            "D": "Demand segmentation"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 88,
+        "Question": "8. In paging, a program is divided into equally sized sections called _______.",
+        "Choices": {
+            "A": "pages",
+            "B": "frames",
+            "C": "segments",
+            "D": "partitions"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 89,
+        "Question": "9. In _______, the program can be divided into differently sized sections.",
+        "Choices": {
+            "A": "partitioning",
+            "B": "paging",
+            "C": "demand paging",
+            "D": "demand segmentation"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 90,
+        "Question": "10. In _______, the program can be divided into equally sized sections called pages, but the pages need not be in memory at the same time for execution.",
+        "Choices": {
+            "A": "partitioning",
+            "B": "paging",
+            "C": "demand paging",
+            "D": "demand segmentation"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 91,
+        "Question": "11. A process in the _______ state can go to either the ready, terminated, or waiting states.",
+        "Choices": {
+            "A": "hold",
+            "B": "virtual",
+            "C": "running",
+            "D": "hold or running"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 92,
+        "Question": "12. A process in the ready state goes to the running state when _______.",
+        "Choices": {
+            "A": "it enters memory",
+            "B": "it requests I/O",
+            "C": "it gets access to the CPU",
+            "D": "it finishes running"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 93,
+        "Question": "13. A program becomes a _______ when it is selected by the operating system and brought to the hold state.",
+        "Choices": {
+            "A": "job",
+            "B": "process",
+            "C": "deadlock",
+            "D": "partition"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 94,
+        "Question": "14. Every process is _______.",
+        "Choices": {
+            "A": "only a job",
+            "B": "only a program",
+            "C": "only a partition",
+            "D": "a job and a program"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 95,
+        "Question": "15. The _______ scheduler creates a process from a job and changes a process back to a job.",
+        "Choices": {
+            "A": "job",
+            "B": "process",
+            "C": "virtual",
+            "D": "queue"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 96,
+        "Question": "16. The _______ scheduler moves a process from one process state to another.",
+        "Choices": {
+            "A": "job",
+            "B": "process",
+            "C": "virtual",
+            "D": "queue"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 97,
+        "Question": "17. To prevent _______, an operating system can put resource restrictions on pro-cesses.",
+        "Choices": {
+            "A": "starvation",
+            "B": "synchronization",
+            "C": "paging",
+            "D": "deadlock"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 98,
+        "Question": "18. _______ can occur if a process has too many resource restrictions.",
+        "Choices": {
+            "A": "Starvation",
+            "B": "Synchronization",
+            "C": "Paging",
+            "D": "Deadlock"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 99,
+        "Question": "19. The _______ manager is responsible for archiving and backup.",
+        "Choices": {
+            "A": "memory",
+            "B": "process",
+            "C": "device",
+            "D": "file"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 100,
+        "Question": "20. The _______ manager is responsible for access to I/O devices.",
+        "Choices": {
+            "A": "memory",
+            "B": "process",
+            "C": "device",
+            "D": "file"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 101,
+        "Question": "1. _______ is a step-by-step method for solving a problem or doing a task.",
+        "Choices": {
+            "A": "A construct",
+            "B": "A recursion",
+            "C": "An iteration",
+            "D": "An algorithm"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 102,
+        "Question": "2. There are ______ basic constructs in computer -science.",
+        "Choices": {
+            "A": "one",
+            "B": "two",
+            "C": "three",
+            "D": "four"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 103,
+        "Question": "3. The _______construct tests a condition.",
+        "Choices": {
+            "A": "sequence",
+            "B": "decision",
+            "C": "repetition",
+            "D": "flow"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 104,
+        "Question": "4. The _______ construct uses a set of actions one after another.",
+        "Choices": {
+            "A": "sequence",
+            "B": "decision",
+            "C": "repetition",
+            "D": "flow"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 105,
+        "Question": "5. The _______ construct handles repeated actions.",
+        "Choices": {
+            "A": "sequence",
+            "B": "decision",
+            "C": "repetition",
+            "D": "flow"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 106,
+        "Question": "6. _______ is a pictorial representation of an algorithm.",
+        "Choices": {
+            "A": "A UML diagram",
+            "B": "A program",
+            "C": "Pseudocode",
+            "D": "An algorithm"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 107,
+        "Question": "7. _______ is an English-language-like representation of code.",
+        "Choices": {
+            "A": "A UML diagram",
+            "B": "A program",
+            "C": "Pseudocode",
+            "D": "An algorithm"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 108,
+        "Question": "8. _______ is a basic algorithm that adds a list of numbers.",
+        "Choices": {
+            "A": "Summation",
+            "B": "Product",
+            "C": "Smallest",
+            "D": "Largest"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 109,
+        "Question": "9. _______ is a basic algorithm that multiplies a list of numbers.",
+        "Choices": {
+            "A": "Summation",
+            "B": "Product",
+            "C": "Smallest",
+            "D": "Largest"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 110,
+        "Question": "10. _______ is a basic algorithm that arranges data according to its value.",
+        "Choices": {
+            "A": "Inquiry",
+            "B": "Sorting",
+            "C": "Searching",
+            "D": "Recursion"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 111,
+        "Question": "11. The items are divided into two lists (sorted and unsorted) _____ sort.",
+        "Choices": {
+            "A": "only in a selection",
+            "B": "only in a bubble",
+            "C": "only in an insertion",
+            "D": "in selection, bubble, or insertion"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 112,
+        "Question": "12. In _______ sort, the item that goes into the sorted list is always the first item in the unsorted list.",
+        "Choices": {
+            "A": "selection",
+            "B": "bubble",
+            "C": "insertion",
+            "D": "every"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 113,
+        "Question": "13. In _______ sort, the smallest item from the unsorted list is swapped with the item at the beginning of the unsorted list.",
+        "Choices": {
+            "A": "selection",
+            "B": "bubble",
+            "C": "insertion",
+            "D": "every"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 114,
+        "Question": "14. In ______ sort, the smallest item moves to the beginning of the unsorted list. There is no one-to-one swapping.",
+        "Choices": {
+            "A": "selection",
+            "B": "bubble",
+            "C": "insertion",
+            "D": "every"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 115,
+        "Question": "15. _______ is a basic algorithm in which we want to find the location of a target in a list of items.",
+        "Choices": {
+            "A": "Sorting",
+            "B": "Searching",
+            "C": "Product",
+            "D": "Summation"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 116,
+        "Question": "16. We use a _______ search for an unordered list.",
+        "Choices": {
+            "A": "sequential",
+            "B": "binary",
+            "C": "bubble",
+            "D": "insertion"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 117,
+        "Question": "17. We use a _______ search for an ordered list.",
+        "Choices": {
+            "A": "sequential",
+            "B": "binary",
+            "C": "bubble",
+            "D": "insertion"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 118,
+        "Question": "18. _______ is a process in which an algorithm calls itself.",
+        "Choices": {
+            "A": "Insertion",
+            "B": "Searching",
+            "C": "Recursion",
+            "D": "Iteration"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 119,
+        "Question": "19. What is a linear search?",
+        "Choices": {},
+        "Answer": ""
+    },
+    {
+        "ID": 120,
+        "Question": "A. A sequential method for sorting elements within a list.",
+        "Choices": {
+            "B": "A sequential method for sorting and finding an element within a list.",
+            "C": "A sequential method for finding an element within a list.",
+            "D": "A sequential method that reduces the size of a list."
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 121,
+        "Question": "20. How many checks will a linear search take to find number 6 in the list?",
+        "Choices": {},
+        "Answer": ""
+    },
+    {
+        "ID": 122,
+        "Question": "3, 4, 7, 6, 5, 1",
+        "Choices": {},
+        "Answer": ""
+    },
+    {
+        "ID": 123,
+        "Question": "A. 3",
+        "Choices": {
+            "B": "7",
+            "C": "5",
+            "D": "4"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 124,
+        "Question": "1. The only language understood by computer hardware is a _______ language.",
+        "Choices": {
+            "A": "machine",
+            "B": "symbolic",
+            "C": "high-level",
+            "D": "natural"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 125,
+        "Question": "2. C, C++, and Java can be classified as _______ languages.",
+        "Choices": {
+            "A": "machine",
+            "B": "symbolic",
+            "C": "high-level",
+            "D": "natural"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 126,
+        "Question": "3. FORTRAN is a(n) _______ language.",
+        "Choices": {
+            "A": "procedural",
+            "B": "functional",
+            "C": "declarative",
+            "D": "object-oriented"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 127,
+        "Question": "4. Pascal is a(n) _______ language.",
+        "Choices": {
+            "A": "procedural",
+            "B": "functional",
+            "C": "declarative",
+            "D": "object-oriented"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 128,
+        "Question": "5. Java is a(n) _______ language.",
+        "Choices": {
+            "A": "procedural",
+            "B": "functional",
+            "C": "declarative",
+            "D": "object-oriented"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 129,
+        "Question": "6. LISP is a(n) _______ language.",
+        "Choices": {
+            "A": "procedural",
+            "B": "functional",
+            "C": "declarative",
+            "D": "object-oriented"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 130,
+        "Question": "7. _______ is a common language in the business -environment.",
+        "Choices": {
+            "A": "FORTRAN",
+            "B": "C++",
+            "C": "C",
+            "D": "COBOL"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 131,
+        "Question": "8. _______ is a popular object-oriented language.",
+        "Choices": {
+            "A": "FORTRAN",
+            "B": "COBOL",
+            "C": "Java",
+            "D": "LISP"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 132,
+        "Question": "9. A _______ program can be either an application or an applet.",
+        "Choices": {
+            "A": "FORTRAN",
+            "B": "C++",
+            "C": "C",
+            "D": "Java"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 133,
+        "Question": "10. LISP and Scheme are both _______ languages.",
+        "Choices": {
+            "A": "procedural",
+            "B": "functional",
+            "C": "declarative",
+            "D": "object-oriented"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 134,
+        "Question": "1. One phase in system development is _______.",
+        "Choices": {
+            "A": "analysis",
+            "B": "application",
+            "C": "designing",
+            "D": "collecting"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 135,
+        "Question": "2. Defining the users, requirements, and methods is part of the _______ phase.",
+        "Choices": {
+            "A": "analysis",
+            "B": "design",
+            "C": "implementation",
+            "D": "testing"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 136,
+        "Question": "3. In the system development process, writing the program is part of the _______ phase.",
+        "Choices": {
+            "A": "analysis",
+            "B": "design",
+            "C": "implementation",
+            "D": "testing"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 137,
+        "Question": "4. In the system development process, structure charts are tools used in the _______ phase.",
+        "Choices": {
+            "A": "analysis",
+            "B": "design",
+            "C": "implementation",
+            "D": "testing"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 138,
+        "Question": "5. Testing a software system can involve _______ testing.",
+        "Choices": {
+            "A": "black-box",
+            "B": "glass-box",
+            "C": "neither black-box nor glass-box",
+            "D": "both black-box and glass-box"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 139,
+        "Question": "6. _______ is the breaking up of a large project into smaller parts.",
+        "Choices": {
+            "A": "Coupling",
+            "B": "Incrementing",
+            "C": "Obsolescence",
+            "D": "Modularization"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 140,
+        "Question": "7. _______ is a measure of how tightly two modules are bound to each other.",
+        "Choices": {
+            "A": "Modularity",
+            "B": "Coupling",
+            "C": "Interoperability",
+            "D": "Cohesion"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 141,
+        "Question": "8. _________between modules in a software system must be minimized.",
+        "Choices": {
+            "A": "Coupling",
+            "B": "Cohesion",
+            "C": "Neither coupling nor cohesion",
+            "D": "Both coupling and cohesion"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 142,
+        "Question": "9. _________between modules in a software system must be maximized.",
+        "Choices": {
+            "A": "Coupling",
+            "B": "Cohesion",
+            "C": "Neither coupling nor cohesion",
+            "D": "Both coupling and cohesion"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 143,
+        "Question": "10. What is the waterfall model?",
+        "Choices": {
+            "A": "A phase cannot be started until the previous phase is completed",
+            "B": "A phase can be started until the previous phase is completed",
+            "C": "The development phase begins simultaneously",
+            "D": "The development process starts at the design phase"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 144,
+        "Question": "1. A data structure can be _______.",
+        "Choices": {
+            "A": "only an array",
+            "B": "only a record",
+            "C": "only a linked list",
+            "D": "an array, a record, or a linked list"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 145,
+        "Question": "2. An array that consists of just rows and columns is a _______ array.",
+        "Choices": {
+            "A": "one-dimensional",
+            "B": "two-dimensional",
+            "C": "three-dimensional",
+            "D": "multidimensional"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 146,
+        "Question": "3. Each element in a record is called _______.",
+        "Choices": {
+            "A": "a variable",
+            "B": "an index",
+            "C": "a field",
+            "D": "a node"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 147,
+        "Question": "4. All the members of a record must be _______.",
+        "Choices": {
+            "A": "the same type",
+            "B": "related types",
+            "C": "integer type",
+            "D": "character type"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 148,
+        "Question": "5. _______ is an ordered collection of data in which each element contains the location of the next element.",
+        "Choices": {
+            "A": "An array",
+            "B": "A record",
+            "C": "A linked list",
+            "D": "A file"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 149,
+        "Question": "6. In a linked list, each element contains _______.",
+        "Choices": {
+            "A": "only data",
+            "B": "only a link",
+            "C": "neither data nor a link",
+            "D": "data and a link"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 150,
+        "Question": "7. The _______ is a pointer that identifies the next element in the linked list.",
+        "Choices": {
+            "A": "link",
+            "B": "node",
+            "C": "array",
+            "D": "data"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 151,
+        "Question": "8. Given a linked list called children, the pointer variable children identifies ________ element of the linked list.",
+        "Choices": {
+            "A": "the first",
+            "B": "the second",
+            "C": "the last",
+            "D": "any"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 152,
+        "Question": "9. An empty linked list consists of _______.",
+        "Choices": {
+            "A": "a node",
+            "B": "two nodes",
+            "C": "data and a link",
+            "D": "a null head pointer"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 153,
+        "Question": "10. To traverse a list, you need a _______ pointer.",
+        "Choices": {
+            "A": "null",
+            "B": "walking",
+            "C": "beginning",
+            "D": "insertion"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 154,
+        "Question": "1. In an abstract data type, _______.",
+        "Choices": {
+            "A": "the ADT implementation is known",
+            "B": "the ADT implementation is hidden",
+            "C": "the ADT public operations are hidden",
+            "D": "Nothing is hidden"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 155,
+        "Question": "2. A stack is a _________ structure.",
+        "Choices": {
+            "A": "FIFO",
+            "B": "LIFO",
+            "C": "DIFO",
+            "D": "SIFO"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 156,
+        "Question": "3. A(n) _______ list is also known as a queue.",
+        "Choices": {
+            "A": "LIFO",
+            "B": "FIFO",
+            "C": "unordered",
+            "D": "ordered"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 157,
+        "Question": "4. If A is the first data element input into a stack, followed by B, C, and D, then _______ is the first element to be removed.",
+        "Choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 158,
+        "Question": "5. If A is the first data element input into a queue, followed by B, C, and D, then _______ is the first element to be removed.",
+        "Choices": {
+            "A": "A",
+            "B": "B",
+            "C": "C",
+            "D": "D"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 159,
+        "Question": "6. The pop operation _______ of the stack.",
+        "Choices": {
+            "A": "deletes an item from the top",
+            "B": "deletes an item from the bottom",
+            "C": "inserts an item at the top",
+            "D": "inserts an item at the bottom"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 160,
+        "Question": "7. The push operation _______ of the stack.",
+        "Choices": {
+            "A": "deletes an item from the top",
+            "B": "deletes an item from the bottom",
+            "C": "inserts an item at the top",
+            "D": "inserts an item at the bottom"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 161,
+        "Question": "8. In a binary tree, each node has _______ two subtrees.",
+        "Choices": {
+            "A": "more than",
+            "B": "less than",
+            "C": "at most",
+            "D": "at least"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 162,
+        "Question": "9. In preorder traversal of a binary tree, the ______.",
+        "Choices": {
+            "A": "left subtree is processed first",
+            "B": "right subtree is processed first",
+            "C": "root is processed first",
+            "D": "the root is never processed"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 163,
+        "Question": "10. In _______ traversal of a binary tree, the right subtree is processed last.",
+        "Choices": {
+            "A": "preorder",
+            "B": "inorder",
+            "C": "postorder",
+            "D": "any order"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 164,
+        "Question": "12. In postorder traversal of a binary tree, the left subtree is processed _______.",
+        "Choices": {
+            "A": "first",
+            "B": "second",
+            "C": "last",
+            "D": "after the right subtree"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 165,
+        "Question": "14. In an inorder traversal of a binary tree, the root is processed _______.",
+        "Choices": {
+            "A": "first",
+            "B": "second",
+            "C": "last",
+            "D": "two times"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 166,
+        "Question": "15. What is a full binary tree?",
+        "Choices": {
+            "A": "Each node has exactly zero or two children",
+            "B": "Each node has exactly two children",
+            "C": "All the leaves are at the same level",
+            "D": "Each node has exactly one or two children"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 167,
+        "Question": "1. _______ file can be accessed randomly.",
+        "Choices": {
+            "A": "A sequential",
+            "B": "An indexed",
+            "C": "A hashed",
+            "D": "Any"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 168,
+        "Question": "2. _______ file can be accessed sequentially.",
+        "Choices": {
+            "A": "A sequential",
+            "B": "An indexed",
+            "C": "A hashed",
+            "D": "No"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 169,
+        "Question": "3. When a sequential file is updated, the ______ file gets the actual update.",
+        "Choices": {
+            "A": "new master",
+            "B": "old master",
+            "C": "transaction",
+            "D": "error report"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 170,
+        "Question": "4. When a sequential file is updated, the ______ file contains a list of all errors occurring during the update process.",
+        "Choices": {
+            "A": "new master",
+            "B": "old master",
+            "C": "transaction",
+            "D": "error report"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 171,
+        "Question": "5. When a sequential file is updated, the ______ file contains the changes to be applied.",
+        "Choices": {
+            "A": "new master",
+            "B": "old master",
+            "C": "transaction",
+            "D": "error report"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 172,
+        "Question": "6. After a sequential file is updated, the _______ file contains the most current data.",
+        "Choices": {
+            "A": "new master",
+            "B": "old master",
+            "C": "transaction",
+            "D": "error report"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 173,
+        "Question": "7. If the transaction file key is 20 and the first master file key is 25, then we _______.",
+        "Choices": {
+            "A": "add the new record to the new master file",
+            "B": "revise the contents of the old master file",
+            "C": "delete the data",
+            "D": "write the old master file record to the new master file"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 174,
+        "Question": "8. If the transaction file key is 20 with a delete code and the master file key is 20, then we _______.",
+        "Choices": {
+            "A": "add the transaction to the new master file",
+            "B": "revise the contents of the old master file",
+            "C": "delete the data",
+            "D": "write the old master file record to the new master file"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 175,
+        "Question": "9. An indexed file consists of _______.",
+        "Choices": {
+            "A": "only a sequential data file",
+            "B": "only an index",
+            "C": "only a random data file",
+            "D": "and random data file"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 176,
+        "Question": "10. The index of an indexed file has _______ fields.",
+        "Choices": {
+            "A": "two",
+            "B": "three",
+            "C": "four",
+            "D": "any number of"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 177,
+        "Question": "11. In the _______ hashing method, selected digits are extracted from the key and used as the address.",
+        "Choices": {
+            "A": "direct",
+            "B": "division remainder",
+            "C": "modulo division",
+            "D": "digit extraction"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 178,
+        "Question": "12. In the _______ hashing method, the key is divided by the file size, and the address is the remainder plus 1.",
+        "Choices": {
+            "A": "direct",
+            "B": "modulo division",
+            "C": "division remainder",
+            "D": "digit extraction"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 179,
+        "Question": "13. In the _______ hashing method, there are no synonyms or collisions.",
+        "Choices": {
+            "A": "direct",
+            "B": "modulo division",
+            "C": "division remainder",
+            "D": "digit extraction"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 180,
+        "Question": "14. _______ are keys that hash to the same location in the data file.",
+        "Choices": {
+            "A": "Collisions",
+            "B": "Buckets",
+            "C": "Synonyms",
+            "D": "Linked lists"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 181,
+        "Question": "15. When a hashing algorithm produces an address for an insertion key and that address is already occupied, it is called a _______.",
+        "Choices": {
+            "A": "collision",
+            "B": "probe",
+            "C": "synonym",
+            "D": "linked list"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 182,
+        "Question": "16. The address produced by a hashing algorithm is the _______ address.",
+        "Choices": {
+            "A": "probe",
+            "B": "synonym",
+            "C": "collision",
+            "D": "home"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 183,
+        "Question": "17. The _______ area is the file area that contains all the home addresses.",
+        "Choices": {
+            "A": "probe",
+            "B": "linked",
+            "C": "hash",
+            "D": "prime"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 184,
+        "Question": "18. In the ______ collision resolution method, we try to put data that cannot be placed in location 123 into location 124.",
+        "Choices": {
+            "A": "open addressing",
+            "B": "linked list",
+            "C": "bucket hashing",
+            "D": "random hashing"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 185,
+        "Question": "19. Which one of the following explains the sequential file access method?",
+        "Choices": {
+            "A": "random access according to the given byte number",
+            "B": "read bytes one at a time, in order",
+            "C": "read/write sequentially by record",
+            "D": "read/write randomly by record"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 186,
+        "Question": "20. The data structure used for file directory is called ____________",
+        "Choices": {
+            "A": "mount table",
+            "B": "hash table",
+            "C": "file table",
+            "D": "process table"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 187,
+        "Question": "1. In a three-level DBMS architecture, the layer that interacts directly with the hardware is the _______ level.",
+        "Choices": {
+            "A": "external",
+            "B": "conceptual",
+            "C": "internal",
+            "D": "physical"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 188,
+        "Question": "2. In a three-level DBMS architecture, the _______ level determines where data is actually stored on the storage devices.",
+        "Choices": {
+            "A": "external",
+            "B": "conceptual",
+            "C": "internal",
+            "D": "physical"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 189,
+        "Question": "3. The _______ level of a three-level DBMS architecture defines the logical view of the data.",
+        "Choices": {
+            "A": "external",
+            "B": "conceptual",
+            "C": "internal",
+            "D": "physical"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 190,
+        "Question": "4. The data model and the schema of a DBMS are often defined at the _______ level.",
+        "Choices": {
+            "A": "external",
+            "B": "conceptual",
+            "C": "internal",
+            "D": "physical"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 191,
+        "Question": "5. In a three-level DBMS architecture, the _______ level interacts directly with the users.",
+        "Choices": {
+            "A": "external",
+            "B": "conceptual",
+            "C": "internal",
+            "D": "physical"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 192,
+        "Question": "6. Of the various database models, the _______ model is the most prevalent today.",
+        "Choices": {
+            "A": "hierarchical",
+            "B": "network",
+            "C": "relational",
+            "D": "linked list"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 193,
+        "Question": "7. Each column in a relation is called _______.",
+        "Choices": {
+            "A": "an attribute",
+            "B": "a tuple",
+            "C": "a union",
+            "D": "an attitude"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 194,
+        "Question": "8. Each row in a relation is called _______.",
+        "Choices": {
+            "A": "an attribute",
+            "B": "a tuple",
+            "C": "a union",
+            "D": "an attitude"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 195,
+        "Question": "9. A unary operator is applied to _______ relation(s) and creates an output of ________ relation(s).",
+        "Choices": {
+            "A": "one, one",
+            "B": "one, two",
+            "C": "two, one",
+            "D": "two, two"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 196,
+        "Question": "10. A binary operator is applied to _______ relations (s) and creates an output of ________ relation(s).",
+        "Choices": {
+            "A": "one, one",
+            "B": "one, two",
+            "C": "two, one",
+            "D": "two, two"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 197,
+        "Question": "11. The unary _______ operation always results in a relation that has exactly one more row than the original relation.",
+        "Choices": {
+            "A": "insert",
+            "B": "delete",
+            "C": "update",
+            "D": "select"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 198,
+        "Question": "12. If you want to change the value of an attribute of a tuple, you use the _______ operation.",
+        "Choices": {
+            "A": "project",
+            "B": "join",
+            "C": "update",
+            "D": "select"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 199,
+        "Question": "13. The operation that takes two relations and combines them based on common attributes is the _________ operation.",
+        "Choices": {
+            "A": "join",
+            "B": "project",
+            "C": "union",
+            "D": "intersection"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 200,
+        "Question": "14. If you need to delete an attribute in a relation, you can use the _______ operation.",
+        "Choices": {
+            "A": "join",
+            "B": "project",
+            "C": "union",
+            "D": "intersection"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 201,
+        "Question": "15. You want to create a relation called New that contains tuples that belong to both relation A and relation B. For this, you can use the _______ operation.",
+        "Choices": {
+            "A": "select",
+            "B": "union",
+            "C": "project",
+            "D": "intersection"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 202,
+        "Question": "16. Which of the following is a unary operator?",
+        "Choices": {
+            "A": "intersection",
+            "B": "union",
+            "C": "join",
+            "D": "project"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 203,
+        "Question": "1. Data is compressed using a dictionary with indexes to strings. This is __________ .",
+        "Choices": {
+            "A": "Huffman encoding",
+            "B": "Lempel Ziv encoding",
+            "C": "Morse coding",
+            "D": "lossy coding"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 204,
+        "Question": "2. A string of one hundred 0s is replaced by two markers, a 0, and the number 100. This is ___.",
+        "Choices": {
+            "A": "run-length encoding",
+            "B": "Morse coding",
+            "C": "Huffman encoding",
+            "D": "Lempel Ziv encoding"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 205,
+        "Question": "3. ___ is an example of lossy compression.",
+        "Choices": {
+            "A": "Huffman encoding",
+            "B": "Lempel Ziv encoding",
+            "C": "Run-length encoding",
+            "D": "JPEG"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 206,
+        "Question": "4. In a ___ data compression method, the received data is an exact copy of the original message.",
+        "Choices": {
+            "A": "lossless",
+            "B": "lossy",
+            "C": "JPEG",
+            "D": "MPEG"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 207,
+        "Question": "5. ___ data compression method, the received data need not be an exact copy of the original message.",
+        "Choices": {
+            "A": "Only in MP3",
+            "B": "Only in JPEG",
+            "C": "Only in MPEG",
+            "D": "In MP3, JPEG, or MPEG"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 208,
+        "Question": "6. ___ encoding is a lossless data compression method.",
+        "Choices": {
+            "A": "Only Huffman",
+            "B": "Only Run-length",
+            "C": "Only LZ",
+            "D": "Huffman, run-length, or LZ"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 209,
+        "Question": "7. In ___ encoding, the more frequently occurring characters have shorter codes than the less frequently occurring characters.",
+        "Choices": {
+            "A": "Huffman",
+            "B": "run-length",
+            "C": "LZ",
+            "D": "JPEG"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 210,
+        "Question": "8. In ___ encoding, PPPPPPPPPPPPPPP can be replaced by P15.",
+        "Choices": {
+            "A": "Huffman",
+            "B": "run-length",
+            "C": "LZ",
+            "D": "MPEG"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 211,
+        "Question": "9. LZ encoding requires ___.",
+        "Choices": {
+            "A": "only a dictionary",
+            "B": "only a buffer",
+            "C": "only an algorithm",
+            "D": "a dictionary, a buffer, and an algorithm"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 212,
+        "Question": "10. JPEG encoding involves ___, a process that reveals the redundancies in a block.",
+        "Choices": {
+            "A": "blocking",
+            "B": "the discrete cosine transform",
+            "C": "quantization",
+            "D": "vectorization"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 213,
+        "Question": "11. In JPEG encoding, the ___ process breaks the original picture into smaller blocks and assigns a value to each pixel in a block.",
+        "Choices": {
+            "A": "blocking",
+            "B": "DCT",
+            "C": "quantization",
+            "D": "vectorization"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 214,
+        "Question": "12. The last step in JPEG, ___, removes redundancies.",
+        "Choices": {
+            "A": "blocking",
+            "B": "quantization",
+            "C": "compression",
+            "D": "vectorization"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 215,
+        "Question": "13. ___ is a lossy compression method for pictures and graphics, whereas ___ is a lossy compression method for video.",
+        "Choices": {
+            "A": "DCT, MPEG",
+            "B": "MPEG, JPEG",
+            "C": "JPEG, MPEG",
+            "D": "JPEG, DCT"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 216,
+        "Question": "14. What is compression?",
+        "Choices": {
+            "A": "To convert one file to another",
+            "B": "To reduce the size of data to save space",
+            "C": "To minimize the time taken for a file to be downloaded",
+            "D": "To compress something by pressing it very hard"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 217,
+        "Question": "15. Which of these terms is a type of data compression?",
+        "Choices": {
+            "A": "resolution",
+            "B": "zipping",
+            "C": "inputting",
+            "D": "caching"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 218,
+        "Question": "1. Three security goals are _____.",
+        "Choices": {
+            "A": "confidentiality, cryptography, and nonrepudiation",
+            "B": "confidentiality, encryption, and decryption",
+            "C": "confidentiality, integrity, and availability",
+            "D": "confidentiality, denial of service, and masquerading"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 219,
+        "Question": "2. Which of the following attacks is threatening integrity?",
+        "Choices": {
+            "A": "Masquerading",
+            "B": "Traffic Analysis",
+            "C": "Denial of service",
+            "D": "Encoding"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 220,
+        "Question": "3. Which of the following attacks is threatening availability?",
+        "Choices": {
+            "A": "Replaying",
+            "B": "Modification",
+            "C": "Denial of service",
+            "D": "Decoding"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 221,
+        "Question": "4. _____________ means concealing the contents of a message by enciphering.",
+        "Choices": {
+            "A": "Steganography",
+            "B": "Cryptography",
+            "C": "Compressing",
+            "D": "Authentication"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 222,
+        "Question": "5. ______________means concealing the message by covering it with something else.",
+        "Choices": {
+            "A": "Cryptography",
+            "B": "Steganography",
+            "C": "Compressing",
+            "D": "Authentication"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 223,
+        "Question": "6. In __________cryptography, the same key is used by the sender and the receiver.",
+        "Choices": {
+            "A": "symmetric-key",
+            "B": "asymmetric-key",
+            "C": "public-key",
+            "D": "open-key"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 224,
+        "Question": "7. In _________ cryptography, the same key is used in both directions.",
+        "Choices": {
+            "A": "symmetric-key",
+            "B": "asymmetric-key",
+            "C": "public-key",
+            "D": "open-key"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 225,
+        "Question": "8. _________ cryptography is often used for long messages.",
+        "Choices": {
+            "A": "Symmetric-key",
+            "B": "Asymmetric-key",
+            "C": "Public-key",
+            "D": "Open-key"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 226,
+        "Question": "9. ___________ cryptography is often used for short messages.",
+        "Choices": {
+            "A": "Symmetric-key",
+            "B": "Asymmetric-key",
+            "C": "Secret-key",
+            "D": "Open-key"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 227,
+        "Question": "10. __________means that the sender and the receiver expect confidentiality.",
+        "Choices": {
+            "A": "Nonrepudiation",
+            "B": "Integrity",
+            "C": "Authentication",
+            "D": "encryption and decryption"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 228,
+        "Question": "11. ___________ means that the data must arrive at the receiver exactly as they were sent.",
+        "Choices": {
+            "A": "Nonrepudiation",
+            "B": "Message integrity",
+            "C": "Authentication",
+            "D": "Secrecy"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 229,
+        "Question": "12. ______________ can provide authentication, integrity, and nonrepudiation for a message.",
+        "Choices": {
+            "A": "Encryption/decryption",
+            "B": "Digital signature",
+            "C": "Compression",
+            "D": "Key-exchange"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 230,
+        "Question": "13. In ___________, the identity of a party is verified once for the entire duration of system access.",
+        "Choices": {
+            "A": "entity authentication",
+            "B": "message integrity",
+            "C": "message authentication",
+            "D": "message encryption"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 231,
+        "Question": "14. In __________ cryptography, everyone has access to everyone's public key.",
+        "Choices": {
+            "A": "symmetric-key",
+            "B": "asymmetric-key",
+            "C": "secret-key",
+            "D": "private-key"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 232,
+        "Question": "15. In the asymmetric-key method used for confidentiality, which key(s) is (are) publicly known?",
+        "Choices": {
+            "A": "encryption key only",
+            "B": "decryption key only",
+            "C": "both encryption and decryption keys",
+            "D": "neither encryption key nor decryption key"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 233,
+        "Question": "1. The _______ statement adds 1 to the variable.",
+        "Choices": {
+            "A": "increment",
+            "B": "decrement",
+            "C": "loop",
+            "D": "complement"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 234,
+        "Question": "2. The _______ statement repeats one or more actions.",
+        "Choices": {
+            "A": "increment",
+            "B": "decrement",
+            "C": "loop",
+            "D": "complement"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 235,
+        "Question": "3. The _______ statement subtracts 1 from the variable.",
+        "Choices": {
+            "A": "increment",
+            "B": "decrement",
+            "C": "loop",
+            "D": "complement"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 236,
+        "Question": "4. To clear a variable, we use the _______ statement(s).",
+        "Choices": {
+            "A": "increment",
+            "B": "decrement",
+            "C": "loop",
+            "D": "decrement and loop"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 237,
+        "Question": "5. To assign a number to a variable, we use the _______ statement(s).",
+        "Choices": {
+            "A": "increment",
+            "B": "decrement",
+            "C": "loop",
+            "D": "decrement and loop"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 238,
+        "Question": "6. To copy the value of one variable to another, we use the ____ statement(s).",
+        "Choices": {
+            "A": "increment",
+            "B": "decrement",
+            "C": "loop",
+            "D": "increment, decrement, and loop"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 239,
+        "Question": "7. A Turing machine has these components: _______.",
+        "Choices": {
+            "A": "tape, memory, and read/write head",
+            "B": "disk, controller, and read/write head",
+            "C": "tape, controller, and read/write head",
+            "D": "disk, memory, and controller"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 240,
+        "Question": "8. In a Turing machine, the _______ holds a sequence of characters.",
+        "Choices": {
+            "A": "disk",
+            "B": "tape",
+            "C": "controller",
+            "D": "read/write head"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 241,
+        "Question": "9. The _______ is the theoretical counterpart of the CPU.",
+        "Choices": {
+            "A": "disk",
+            "B": "tape",
+            "C": "controller",
+            "D": "read/write head"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 242,
+        "Question": "10. The controller has _______ states.",
+        "Choices": {
+            "A": "three",
+            "B": "four",
+            "C": "a finite number of",
+            "D": "an infinite number of"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 243,
+        "Question": "11. A _______ is a pictorial representation of the states and their relationships to each other.",
+        "Choices": {
+            "A": "transition diagram",
+            "B": "flowchart",
+            "C": "transition table",
+            "D": "Turing machine"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 244,
+        "Question": "12. A _______ shows, among other things, the movement of the read/write head, the character read, and the character written.",
+        "Choices": {
+            "A": "diagram",
+            "B": "flowchart",
+            "C": "transition table",
+            "D": "Turing machine"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 245,
+        "Question": "13. We use _______ to denote a program's complexity.",
+        "Choices": {
+            "A": "the Turing number",
+            "B": "big-O notation",
+            "C": "factorials",
+            "D": "the Simple Language"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 246,
+        "Question": "14. The complexity of a problem is O (log10 n) and the computer executes 1 million instructions per seconD. How long does it take to run the program if the number of operations is 10,000?",
+        "Choices": {
+            "A": "1 microsecond",
+            "B": "2 microseconds",
+            "C": "3 microseconds",
+            "D": "4 microseconds"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 247,
+        "Question": "15. When does the code block following while(x<100) execute?",
+        "Choices": {
+            "A": "When x is less than one hundred",
+            "B": "When x is greater than one hundred",
+            "C": "When x is equal to one hundred",
+            "D": "While it wishes"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 248,
+        "Question": "1. The main foundation of thinking machines came from:",
+        "Choices": {
+            "A": "Sir Isaac Newton",
+            "B": "Gottfried W. Leibniz",
+            "C": "Alan Turing",
+            "D": "John McCarthy"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 249,
+        "Question": "2. The term Artificial Intelligence (AI) was first coined by:",
+        "Choices": {
+            "A": "Alan Turing",
+            "B": "John McCarthy",
+            "C": "Steven Spielberg",
+            "D": "Richard H. Richen"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 250,
+        "Question": "3. Two programing languages specifically designed for AI are:",
+        "Choices": {
+            "A": "C and C++",
+            "B": "Java and C++",
+            "C": "LISP and PROLOG",
+            "D": "FORTRAN and COBOL"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 251,
+        "Question": "4. A node in semantic network becomes ______.",
+        "Choices": {
+            "A": "a slot in frames",
+            "B": "an edge in frames",
+            "C": "an object in frames",
+            "D": "a line in frames"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 252,
+        "Question": "5. Which of the following is not a sentence in a propositional logic:",
+        "Choices": {
+            "A": "Ford is a car.",
+            "B": "If John is home then Mary is at work.",
+            "C": "True.",
+            "D": "Where is John?"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 253,
+        "Question": "6. Two quantifiers \" and $ are used in:",
+        "Choices": {
+            "A": "propositional logic",
+            "B": "predicate logic",
+            "C": "atomic sentences",
+            "D": "conclusion of any argument"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 254,
+        "Question": "7. To find the depth of an object, we use:",
+        "Choices": {
+            "A": "edge detection",
+            "B": "segmentation",
+            "C": "stereo vision",
+            "D": "shading"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 255,
+        "Question": "8. To find the orientation of an object, we use:",
+        "Choices": {
+            "A": "stereo vision",
+            "B": "motion",
+            "C": "texture",
+            "D": "segmentation"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 256,
+        "Question": "9. In language understanding, parsing a sentence is part of:",
+        "Choices": {
+            "A": "speech recognition",
+            "B": "syntactic analysis",
+            "C": "semantic analysis",
+            "D": "pragmatic analysis"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 257,
+        "Question": "10. We use brute-force search:",
+        "Choices": {
+            "A": "if we have no prior knowledge about the search",
+            "B": "if we need to do the search quickly",
+            "C": "if we need to do the search thoroughly",
+            "D": "after performing heuristic search"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 258,
+        "Question": "1. In Facebook, friendship is a _______ relationship.",
+        "Choices": {
+            "A": "one-to-one",
+            "B": "one-to-many",
+            "C": "many-to-one",
+            "D": "many-to-many"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 259,
+        "Question": "2. Communication in Facebook is a _________ relationship.",
+        "Choices": {
+            "A": "one-to-one",
+            "B": "one-to-many",
+            "C": "many-to-one",
+            "D": "many-to-many"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 260,
+        "Question": "3. The home page in Facebook can be used __________.",
+        "Choices": {
+            "A": "only for sign-up",
+            "B": "only for log-in",
+            "C": "both for sign-up and log-in",
+            "D": "neither for sign-up nor for log-in"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 261,
+        "Question": "4. To find friends in Facebook, the member can ______.",
+        "Choices": {
+            "A": "can accept Facebook recommendation",
+            "B": "follow email contacts",
+            "C": "look for old friends",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 262,
+        "Question": "5. When you are in Facebook, you can ______.",
+        "Choices": {
+            "A": "post news.",
+            "B": "read news",
+            "C": "neither a nor b",
+            "D": "both a and b"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 263,
+        "Question": "6. In Twitter, a message can be ___________:",
+        "Choices": {
+            "A": "of any size",
+            "B": "of maximum 100 characters",
+            "C": "of maximum 140 characters",
+            "D": "of maximum 200 characters"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 264,
+        "Question": "7. In Twitter, the relationship between member is based on:",
+        "Choices": {
+            "A": "friendship",
+            "B": "following",
+            "C": "either a or b",
+            "D": "both a and b"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 265,
+        "Question": "8. In Twitter, follower-member is a ________ relationship.",
+        "Choices": {
+            "A": "one-to-one.",
+            "B": "one-to-many",
+            "C": "many-to-one",
+            "D": "many-to-many"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 266,
+        "Question": "9. In Twitter, communication between the sender and the receiver of a tweet is a ______________.",
+        "Choices": {
+            "A": "one-to-one.",
+            "B": "one-to-many",
+            "C": "many-to-one",
+            "D": "many-to-many"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 267,
+        "Question": "10. In Twitter, when a message is posted, __________",
+        "Choices": {
+            "A": "all members in the twitter can see it.",
+            "B": "only followers of the sender can see it.",
+            "C": "only friends of the sender can see it.",
+            "D": "none of the above"
+        },
+        "Answer": "B"
+    }
+]

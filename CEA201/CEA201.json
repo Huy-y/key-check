@@ -1,0 +1,5831 @@
+[
+    {
+        "ID": 1,
+        "Question": "There is a tremendous variety of products, from single-chip microcomputers costing a few dollars to supercomputers costing tens of millions of dollars that can rightly claim the name \"computer\".",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 2,
+        "Question": "The variety of computer products is exhibited only in cost.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 3,
+        "Question": "Computer organization refers to attributes of a system visible to the programmer.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 4,
+        "Question": "Changes in computer technology are finally slowing down.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 5,
+        "Question": "The textbook for this course is about the structure and function of computers.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 6,
+        "Question": "The number of bits used to represent various data types is an example of an architectural attribute.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 7,
+        "Question": "Interfaces between the computer and peripherals is an example of an organizational attribute.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 8,
+        "Question": "Historically the distinction between architecture and organization has not been an important one.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 9,
+        "Question": "A particular architecture may span many years and encompass a number of different computer models, its organization changing with changing technology.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 10,
+        "Question": "A microcomputer architecture and organization relationship is not very close.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 11,
+        "Question": "Changes in technology not only influence organization but also result in the introduction of more powerful and more complex architectures.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 12,
+        "Question": "The hierarchical nature of complex systems is essential to both their design and their description.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 13,
+        "Question": "Both the structure and functioning of a computer are, in essence, simple.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 14,
+        "Question": "A computer must be able to process, store, move, and control data.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 15,
+        "Question": "When data are moved over longer distances, to or from a remote device, the process is known as data transport.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 16,
+        "Question": "Computer technology is changing at a __________ pace.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 17,
+        "Question": "Computer _________ refers to those attributes that have a direct impact on the logical execution of a program.",
+        "Choices": {
+            "A": "Organization",
+            "B": "Specifics",
+            "C": "Design",
+            "D": "Architecture"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 18,
+        "Question": "Architectural attributes include __________ .",
+        "Choices": {
+            "A": "I/O mechanisms",
+            "B": "Control signals",
+            "C": "Interfaces",
+            "D": "Memory technology used"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 19,
+        "Question": "_________ attributes include hardware details transparent to the programmer.",
+        "Choices": {
+            "A": "Interface",
+            "B": "Organizational",
+            "C": "Memory",
+            "D": "Architectural"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 20,
+        "Question": "It is a(n) _________ design issue whether a computer will have a multiply instruction.",
+        "Choices": {
+            "A": "Architectural",
+            "B": "Memory",
+            "C": "Elementary",
+            "D": "Organizational"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 21,
+        "Question": "It is a(n) _________ issue whether the multiply instruction will be implemented by a special multiply unit or by a mechanism that makes repeated use of the add unit of the system.",
+        "Choices": {
+            "A": "Architectural",
+            "B": "Memory",
+            "C": "Mechanical",
+            "D": "Organizational"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 22,
+        "Question": "A __________ system is a set of interrelated subsystems.",
+        "Choices": {
+            "A": "Secondary",
+            "B": "Hierarchical",
+            "C": "Complex",
+            "D": "Functional"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 23,
+        "Question": "An I/O device is referred to as a __________.",
+        "Choices": {
+            "A": "CPU",
+            "B": "Control device",
+            "C": "Peripheral",
+            "D": "Register"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 24,
+        "Question": "When data are moved over longer distances, to or from a remote device, the process is known as __________.",
+        "Choices": {
+            "A": "Data communications",
+            "B": "Registering",
+            "C": "Structuring",
+            "D": "Data transport"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 25,
+        "Question": "The _________ stores data.",
+        "Choices": {
+            "A": "System bus",
+            "B": "I/O",
+            "C": "Main memory",
+            "D": "Control unit"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 26,
+        "Question": "The __________ moves data between the computer and its external environment.",
+        "Choices": {
+            "A": "Data transport",
+            "B": "I/O",
+            "C": "Register",
+            "D": "CPU interconnection"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 27,
+        "Question": "A common example of system interconnection is by means of a __________.",
+        "Choices": {
+            "A": "Register",
+            "B": "System bus",
+            "C": "Data transport",
+            "D": "Control device"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 28,
+        "Question": "A _________ is a mechanism that provides for communication among CPU, main memory, and I/O.",
+        "Choices": {
+            "A": "System interconnection",
+            "B": "CPU interconnection",
+            "C": "Peripheral",
+            "D": "Processor"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 29,
+        "Question": "_________ provide storage internal to the CPU.",
+        "Choices": {
+            "A": "Control units",
+            "B": "ALUs",
+            "C": "Main memory",
+            "D": "Registers"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 30,
+        "Question": "The __________ performs the computer's data processing functions.",
+        "Choices": {
+            "A": "Register",
+            "B": "CPU interconnection",
+            "C": "ALU",
+            "D": "System bus"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 31,
+        "Question": "The world's first general-purpose electronic digital computer was designed and constructed at The Ohio State University.",
+        "Choices": {},
+        "Answer": "F"
+    },
+    {
+        "ID": 32,
+        "Question": "John Mauchly and John Eckert designed the ENIAC.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 33,
+        "Question": "The major drawback of the EDVAC was that it had to be programmed manually by setting switches and plugging and unplugging cables.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 34,
+        "Question": "The IAS is the prototype of all subsequent general-purpose computers.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 35,
+        "Question": "The IAS operates by repetitively performing an instruction cycle.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 36,
+        "Question": "Backward compatible means that the programs written for the older machines can be executed on the new machine.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 37,
+        "Question": "A vacuum tube is a solid-state device made from silicon.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 38,
+        "Question": "Computers are classified into generations based on the fundamental hardware technology employed.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 39,
+        "Question": "System software was introduced in the third generation of computers.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 40,
+        "Question": "A wafer is made of silicon and is broken up into chips which consists of many gates and/or memory cells plus a number of input and output attachment points.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 41,
+        "Question": "IBM's System/360 was the industry's first planned family of computers.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 42,
+        "Question": "Intel's 4004 was the first chip to contain all of the components of a CPU on a single chip.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 43,
+        "Question": "Designers wrestle with the challenge of balancing processor performance with that of main memory and other computer components.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 44,
+        "Question": "The Intel x86 evolved from RISC design principles and is used in embedded systems.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 45,
+        "Question": "A common measure of performance for a processor is the rate at which instructions are executed, expressed as billions of instructions per seconds (BIPS).",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 46,
+        "Question": "The _________ was the world's first general-purpose electronic digital computer.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 47,
+        "Question": "The Electronic Numerical Integrator and Computer project was a response to U.S. needs during _________.",
+        "Choices": {
+            "A": "The Civil War",
+            "B": "The French-American War",
+            "C": "World War I",
+            "D": "World War II"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 48,
+        "Question": "The ENIAC used __________.",
+        "Choices": {
+            "A": "Vacuum tubes",
+            "B": "Integrated circuits",
+            "C": "IAS",
+            "D": "Transistors"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 49,
+        "Question": "The ENIAC is an example of a _________ generation computer.",
+        "Choices": {
+            "A": "First",
+            "B": "Second",
+            "C": "Third",
+            "D": "Fourth"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 50,
+        "Question": "The __________ interprets the instructions in memory and causes them to be executed.",
+        "Choices": {
+            "A": "Main memory",
+            "B": "Control unit",
+            "C": "I/O",
+            "D": "Arithmetic and logic unit"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 51,
+        "Question": "The memory of the IAS consists of 1000 storage locations called __________.",
+        "Choices": {
+            "A": "Opcodes",
+            "B": "Wafers",
+            "C": "VLSIs",
+            "D": "Words"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 52,
+        "Question": "The __________ contains the 8-bit opcode instruction being executed.",
+        "Choices": {
+            "A": "Memory buffer register",
+            "B": "Instruction buffer register",
+            "C": "Instruction register",
+            "D": "Memory address register"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 53,
+        "Question": "During the _________ the opcode of the next instruction is loaded into the IR and the address portion is loaded into the MAR.",
+        "Choices": {
+            "A": "Execute cycle",
+            "B": "Fetch cycle",
+            "C": "Instruction cycle",
+            "D": "Clock cycle"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 54,
+        "Question": "Second generation computers used __________.",
+        "Choices": {
+            "A": "Integrated circuits",
+            "B": "Transistors",
+            "C": "Vacuum tubes",
+            "D": "Large-scale integration"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 55,
+        "Question": "The __________ defines the third generation of computers.",
+        "Choices": {
+            "A": "Integrated circuit",
+            "B": "Vacuum tube",
+            "C": "Transistor",
+            "D": "VLSI"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 56,
+        "Question": "The use of multiple processors on the same chip is referred to as __________ and provides the potential to increase performance without increasing the clock rate.",
+        "Choices": {
+            "A": "Multicore",
+            "B": "GPU",
+            "C": "Data channels",
+            "D": "MPC"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 57,
+        "Question": "With the __________, Intel introduced the use of superscalar techniques that allow multiple instructions to execute in parallel.",
+        "Choices": {
+            "A": "Core",
+            "B": "8080",
+            "C": "80486",
+            "D": "Pentium"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 58,
+        "Question": "The __________ measures the ability of a computer to complete a single task.",
+        "Choices": {
+            "A": "Clock speed",
+            "B": "Speed metric",
+            "C": "Execute cycle",
+            "D": "Cycle time"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 59,
+        "Question": "ARM processors are designed to meet the needs of _________.",
+        "Choices": {
+            "A": "Embedded real-time systems",
+            "B": "Application platforms",
+            "C": "Secure applications",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 60,
+        "Question": "One increment, or pulse, of the system clock is referred to as a _________.",
+        "Choices": {
+            "A": "Clock tick",
+            "B": "Cycle time",
+            "C": "Clock rate",
+            "D": "Cycle speed"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 61,
+        "Question": "At a top level, a computer consists of CPU, memory, and I/O components.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 62,
+        "Question": "The basic function of a computer is to execute programs.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 63,
+        "Question": "Program execution consists of repeating the process of instruction fetch and instruction execution.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 64,
+        "Question": "Interrupts do not improve processing efficiency.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 65,
+        "Question": "An I/O module cannot exchange data directly with the processor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 66,
+        "Question": "A key characteristic of a bus is that it is not a shared transmission medium.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 67,
+        "Question": "Computer systems contain a number of different buses that provide pathways between components at various levels of the computer system hierarchy.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 68,
+        "Question": "In general, the more devices attached to the bus, the greater the bus length and hence the greater the propagation delay.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 69,
+        "Question": "It is not possible to connect I/O controllers directly onto the system bus.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 70,
+        "Question": "The method of using the same lines for multiple purposes is known as time multiplexing.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 71,
+        "Question": "Timing refers to the way in which events are coordinated on the bus.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 72,
+        "Question": "With asynchronous timing the occurrence of events on the bus is determined by a clock.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 73,
+        "Question": "Because all devices on a synchronous bus are tied to a fixed clock rate, the system cannot take advantage of advances in device performance.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 74,
+        "Question": "The unit of transfer at the link layer is a phit and the unit transfer at the physical layer is a flit.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 75,
+        "Question": "A key requirement for PCIe is high capacity to support the needs of higher data rate I/O devices such as Gigabit Ethernet.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 76,
+        "Question": "Virtually all contemporary computer designs are based on concepts developed by __________ at the Institute for Advanced Studies, Princeton.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 77,
+        "Question": "The von Neumann architecture is based on which concept?",
+        "Choices": {
+            "A": "Data and instructions are stored in a single read-write memory",
+            "B": "The contents of this memory are addressable by location",
+            "C": "Execution occurs in a sequential fashion",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 78,
+        "Question": "A sequence of codes or instructions is called __________.",
+        "Choices": {
+            "A": "Software",
+            "B": "Memory",
+            "C": "An interconnect",
+            "D": "A register"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 79,
+        "Question": "The processing required for a single instruction is called a(n) __________ cycle.",
+        "Choices": {
+            "A": "Execute",
+            "B": "Fetch",
+            "C": "Instruction",
+            "D": "Packet"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 80,
+        "Question": "A(n) _________ is generated by a failure such as power failure or memory parity error.",
+        "Choices": {
+            "A": "I/O interrupt",
+            "B": "Hardware failure interrupt",
+            "C": "Timer interrupt",
+            "D": "Program interrupt"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 81,
+        "Question": "A(n) _________ is generated by some condition that occurs as a result of an instruction execution.",
+        "Choices": {
+            "A": "Timer interrupt",
+            "B": "I/O interrupt",
+            "C": "Program interrupt",
+            "D": "Hardware failure interrupt"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 82,
+        "Question": "The interconnection structure must support which transfer?",
+        "Choices": {
+            "A": "Memory to processor",
+            "B": "Processor to memory",
+            "C": "I/O to or from memory",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 83,
+        "Question": "A bus that connects major computer components (processor, memory, I/O) is called a __________.",
+        "Choices": {
+            "A": "System bus",
+            "B": "Address bus",
+            "C": "Data bus",
+            "D": "Control bus"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 84,
+        "Question": "The __________ are used to designate the source or destination of the data on the data bus.",
+        "Choices": {
+            "A": "System lines",
+            "B": "Data lines",
+            "C": "Control lines",
+            "D": "Address lines"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 85,
+        "Question": "The data lines provide a path for moving data among system modules and are collectively called the _________.",
+        "Choices": {
+            "A": "Control bus",
+            "B": "Address bus",
+            "C": "Data bus",
+            "D": "System bus"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 86,
+        "Question": "A __________ is the high-level set of rules for exchanging packets of data between devices.",
+        "Choices": {
+            "A": "Bus",
+            "B": "Protocol",
+            "C": "Packet",
+            "D": "QPI"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 87,
+        "Question": "Each data path consists of a pair of wires (referred to as a __________) that transmits data one bit at a time.",
+        "Choices": {
+            "A": "Lane",
+            "B": "Path",
+            "C": "Line",
+            "D": "Bus"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 88,
+        "Question": "The _________ receives read and write requests from the software above the TL and creates request packets for transmission to a destination via the link layer.",
+        "Choices": {
+            "A": "Transaction layer",
+            "B": "Root layer",
+            "C": "Configuration layer",
+            "D": "Transport layer"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 89,
+        "Question": "The TL supports which of the following address spaces?",
+        "Choices": {
+            "A": "Memory",
+            "B": "I/O",
+            "C": "Message",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 90,
+        "Question": "The QPI _________ layer is used to determine the course that a packet will traverse across the available system interconnects.",
+        "Choices": {
+            "A": "Link",
+            "B": "Protocol",
+            "C": "Routing",
+            "D": "Physical"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 91,
+        "Question": "No single technology is optimal in satisfying the memory requirements for a computer system.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 92,
+        "Question": "A typical computer system is equipped with a hierarchy of memory subsystems, some internal to the system and some external.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 93,
+        "Question": "External memory is often equated with main memory.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 94,
+        "Question": "The processor requires its own local memory.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 95,
+        "Question": "Cache is not a form of internal memory.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 96,
+        "Question": "The unit of transfer must equal a word or an addressable unit.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 97,
+        "Question": "Both sequential access and direct access involve a shared read-write mechanism.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 98,
+        "Question": "In a volatile memory, information decays naturally or is lost when electrical power is switched off.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 99,
+        "Question": "To achieve greatest performance the memory must be able to keep up with the processor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 100,
+        "Question": "Secondary memory is used to store program and data files and is usually visible to the programmer only in terms of individual bytes or words.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 101,
+        "Question": "The L1 cache is slower than the L3 cache.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 102,
+        "Question": "With write back updates are made only in the cache.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 103,
+        "Question": "It has become possible to have a cache on the same chip as the processor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 104,
+        "Question": "All of the Pentium processors include two on-chip L1 caches, one for data and one for instructions.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 105,
+        "Question": "Cache design for HPC is the same as that for other hardware platforms and applications.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 106,
+        "Question": "__________ refers to whether memory is internal or external to the computer.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 107,
+        "Question": "Internal memory capacity is typically expressed in terms of _________.",
+        "Choices": {
+            "A": "Hertz",
+            "B": "Nanos",
+            "C": "Bytes",
+            "D": "LOR"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 108,
+        "Question": "For internal memory, the __________ is equal to the number of electrical lines into and out of the memory module.",
+        "Choices": {
+            "A": "Access time",
+            "B": "Unit of transfer",
+            "C": "Capacity",
+            "D": "Memory ratio"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 109,
+        "Question": "\"Memory is organized into records and access must be made in a specific linear sequence\" is a description of __________.",
+        "Choices": {
+            "A": "Sequential access",
+            "B": "Direct access",
+            "C": "Random access",
+            "D": "Associative"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 110,
+        "Question": "individual blocks or records have a unique address based on physical location with __________.",
+        "Choices": {
+            "A": "Associative",
+            "B": "Physical access",
+            "C": "Direct access",
+            "D": "Sequential access"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 111,
+        "Question": "For random-access memory, __________ is the time from the instant that an address is presented to the memory to the instant that data have been stored or made available for use.",
+        "Choices": {
+            "A": "Memory cycle time",
+            "B": "Direct access",
+            "C": "Transfer rate",
+            "D": "Access time"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 112,
+        "Question": "The ________ consists of the access time plus any additional time required before a second access can commence.",
+        "Choices": {
+            "A": "Latency",
+            "B": "Memory cycle time",
+            "C": "Direct access",
+            "D": "Transfer rate"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 113,
+        "Question": "A portion of main memory used as a buffer to hold data temporarily that is to be read out to disk is referred to as a _________.",
+        "Choices": {
+            "A": "Disk cache",
+            "B": "Latency",
+            "C": "Virtual address",
+            "D": "Miss"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 114,
+        "Question": "A line includes a _________ that identifies which particular block is currently being stored.",
+        "Choices": {
+            "A": "Cache",
+            "B": "Hit",
+            "C": "Tag",
+            "D": "Locality"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 115,
+        "Question": "__________ is the simplest mapping technique and maps each block of main memory into only one possible cache line.",
+        "Choices": {
+            "A": "Direct mapping",
+            "B": "Associative mapping",
+            "C": "Set associative mapping",
+            "D": "None of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 116,
+        "Question": "When using the __________ technique all write operations made to main memory are made to the cache as well.",
+        "Choices": {
+            "A": "Write back",
+            "B": "LRU",
+            "C": "Write through",
+            "D": "Unified cache"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 117,
+        "Question": "The key advantage of the __________ design is that it eliminates contention for the cache between the instruction fetch/decode unit and the execution unit.",
+        "Choices": {
+            "A": "Logical cache",
+            "B": "Split cache",
+            "C": "Unified cache",
+            "D": "Physical cache"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 118,
+        "Question": "The Pentium 4 _________ component executes micro-operations, fetching the required data from the L1 data cache and temporarily storing results in registers.",
+        "Choices": {
+            "A": "Fetch/decode unit",
+            "B": "Out-of-order execution logic",
+            "C": "Execution unit",
+            "D": "Memory subsystem"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 119,
+        "Question": "In reference to access time to a two-level memory, a _________ occurs if an accessed word is not found in the faster memory.",
+        "Choices": {
+            "A": "Miss",
+            "B": "Hit",
+            "C": "Line",
+            "D": "Tag"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 120,
+        "Question": "A logical cache stores data using __________.",
+        "Choices": {
+            "A": "Physical addresses",
+            "B": "Virtual addresses",
+            "C": "Random addresses",
+            "D": "None of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 121,
+        "Question": "The basic element of a semiconductor memory is the memory cell.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 122,
+        "Question": "A characteristic of ROM is that it is volatile.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 123,
+        "Question": "RAM must be provided with a constant power supply.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 124,
+        "Question": "The two traditional forms of RAM used in computers are DRAM and SRAM.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 125,
+        "Question": "A static RAM will hold its data as long as power is supplied to it.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 126,
+        "Question": "Nonvolatile means that power must be continuously supplied to the memory to preserve the bit values.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 127,
+        "Question": "The advantage of RAM is that the data or program is permanently in main memory and need never be loaded from a secondary storage device.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 128,
+        "Question": "Semiconductor memory comes in packaged chips.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 129,
+        "Question": "All DRAMs require a refresh operation.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 130,
+        "Question": "A number of chips can be grouped together to form a memory bank.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 131,
+        "Question": "An error-correcting code enhances the reliability of the memory at the cost of added complexity.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 132,
+        "Question": "DRAM is much costlier than SRAM.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 133,
+        "Question": "RDRAM is limited by the fact that it can only send data to the processor once per bus clock cycle.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 134,
+        "Question": "The prefetch buffer is a memory cache located on the RAM chip.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 135,
+        "Question": "The SRAM on the CDRAM cannot be used as a buffer to support the serial access of a block of data.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 136,
+        "Question": "Which properties do all semiconductor memory cells share?",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 137,
+        "Question": "One distinguishing characteristic of memory that is designated as _________ is that it is possible to both to read data from the memory and to write new data into the memory easily and rapidly.",
+        "Choices": {
+            "A": "RAM",
+            "B": "ROM",
+            "C": "EPROM",
+            "D": "EEPROM"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 138,
+        "Question": "Which of the following memory types are nonvolatile?",
+        "Choices": {
+            "A": "Erasable PROM",
+            "B": "Programmable ROM",
+            "C": "Flash memory",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 139,
+        "Question": "In a _________, binary values are stored using traditional flip-flop logic-gate configurations.",
+        "Choices": {
+            "A": "ROM",
+            "B": "SRAM",
+            "C": "DRAM",
+            "D": "RAM"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 140,
+        "Question": "A __________ contains a permanent pattern of data that cannot be changed, is nonvolatile, and cannot have new data written into it.",
+        "Choices": {
+            "A": "RAM",
+            "B": "SRAM",
+            "C": "ROM",
+            "D": "Flash memory"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 141,
+        "Question": "With _________ the microchip is organized so that a section of memory cells are erased in a single action.",
+        "Choices": {
+            "A": "Flash memory",
+            "B": "SDRAM",
+            "C": "DRAM",
+            "D": "EEPROM"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 142,
+        "Question": "__________ can be caused by harsh environmental abuse, manufacturing defects, and wear.",
+        "Choices": {
+            "A": "SEC errors",
+            "B": "Hard errors",
+            "C": "Syndrome errors",
+            "D": "Soft errors"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 143,
+        "Question": "_________ can be caused by power supply problems or alpha particles.",
+        "Choices": {
+            "A": "Soft errors",
+            "B": "AGT errors",
+            "C": "Hard errors",
+            "D": "SEC errors"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 144,
+        "Question": "The _________ exchanges data with the processor synchronized to an external clock signal and running at the full speed of the processor/memory bus without imposing wait states.",
+        "Choices": {
+            "A": "DDR-DRAM",
+            "B": "SDRAM",
+            "C": "CDRAM",
+            "D": "None of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 145,
+        "Question": "________ can send data to the processor twice per clock cycle.",
+        "Choices": {
+            "A": "CDRAM",
+            "B": "SDRAM",
+            "C": "DDR-DRAM",
+            "D": "RDRAM"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 146,
+        "Question": "__________ increases the data transfer rate by increasing the operational frequency of the RAM chip and by increasing the prefetch buffer from 2 bits to 4 bits per chip.",
+        "Choices": {
+            "A": "DDR2",
+            "B": "RDRAM",
+            "C": "CDRAM",
+            "D": "DDR3"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 147,
+        "Question": "________ increases the prefetch buffer size to 8 bits.",
+        "Choices": {
+            "A": "CDRAM",
+            "B": "RDRAM",
+            "C": "DDR3",
+            "D": "All of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 148,
+        "Question": "Theoretically, a DDR module can transfer data at a clock rate in the range of __________ MHz.",
+        "Choices": {
+            "A": "200 to 600",
+            "B": "400 to 1066",
+            "C": "600 to 1400",
+            "D": "800 to 1600"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 149,
+        "Question": "A DDR3 module transfers data at a clock rate of __________ MHz.",
+        "Choices": {
+            "A": "600 to 1200",
+            "B": "800 to 1600",
+            "C": "1000 to 2000",
+            "D": "1500 to 3000"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 150,
+        "Question": "The ________ enables the RAM chip to preposition bits to be placed on the data bus as rapidly as possible.",
+        "Choices": {
+            "A": "Flash memory",
+            "B": "Hamming code",
+            "C": "RamBus",
+            "D": "Buffer"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 151,
+        "Question": "Magnetic disks are the foundation of external memory on virtually all computer systems.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 152,
+        "Question": "During a read or write operation, the head rotates while the platter beneath it stays stationary.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 153,
+        "Question": "The width of a track is double that of the head.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 154,
+        "Question": "There are typically hundreds of sectors per track and they may be either fixed or variable lengths.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 155,
+        "Question": "A bit near the center of a rotating disk travels past a fixed point slower than a bit on the outside.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 156,
+        "Question": "The disadvantage of using CAV is that individual blocks of data can only be directly addressed by track and sector.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 157,
+        "Question": "A removable disk can be removed and replaced with another disk.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 158,
+        "Question": "The head must generate or sense an electromagnetic field of sufficient magnitude to write and read properly.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 159,
+        "Question": "The transfer time to or from the disk does not depend on the rotation speed of the disk.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 160,
+        "Question": "RAID is a set of physical disk drives viewed by the operating system as a single logical drive.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 161,
+        "Question": "RAID level 0 is not a true member of the RAID family because it does not include redundancy to improve performance.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 162,
+        "Question": "Because data are striped in very small strips, RAID 3 cannot achieve very high data transfer rates.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 163,
+        "Question": "The SSDs now on the market use a type of semiconductor memory referred to as flash memory.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 164,
+        "Question": "SSD performance has a tendency to speed up as the device is used.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 165,
+        "Question": "Flash memory becomes unusable after a certain number of writes.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 166,
+        "Question": "Greater ability to withstand shock and damage, improvement in the uniformity of the magnet film surface to increase disk reliability, and a significant reduction in overall surface defects to help reduce read-write errors, are all benefits of ___________.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 167,
+        "Question": "Adjacent tracks are separated by _________.",
+        "Choices": {
+            "A": "sectors",
+            "B": "gaps",
+            "C": "pits",
+            "D": "heads"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 168,
+        "Question": "Data are transferred to and from the disk in __________.",
+        "Choices": {
+            "A": "tracks",
+            "B": "gaps",
+            "C": "sectors",
+            "D": "pits"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 169,
+        "Question": "In most contemporary systems fixed-length sectors are used, with _________ bytes being the nearly universal sector size.",
+        "Choices": {
+            "A": "64",
+            "B": "128",
+            "C": "256",
+            "D": "512"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 170,
+        "Question": "Scanning information at the same rate by rotating the disk at a fixed speed is known as the _________.",
+        "Choices": {
+            "A": "constant angular velocity",
+            "B": "magnetoresistive",
+            "C": "rotational delay",
+            "D": "constant linear velocity"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 171,
+        "Question": "The disadvantage of _________ is that the amount of data that can be stored on the long outer tracks is only the same as what can be stored on the short inner tracks.",
+        "Choices": {
+            "A": "SSD",
+            "B": "CAV",
+            "C": "ROM",
+            "D": "CLV"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 172,
+        "Question": "A __________ disk is permanently mounted in the disk drive, such as the hard disk in a personal computer.",
+        "Choices": {
+            "A": "nonremovable",
+            "B": "movable-head",
+            "C": "double sided",
+            "D": "removable"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 173,
+        "Question": "When the magnetizable coating is applied to both sides of the platter the disk is then referred to as _________.",
+        "Choices": {
+            "A": "multiple sided",
+            "B": "substrate",
+            "C": "double sided",
+            "D": "all of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 174,
+        "Question": "The set of all the tracks in the same relative position on the platter is referred to as a _________.",
+        "Choices": {
+            "A": "floppy disk",
+            "B": "single-sided disk",
+            "C": "sector",
+            "D": "cylinder"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 175,
+        "Question": "The sum of the seek time and the rotational delay equals the _________, which is the time it takes to get into position to read or write.",
+        "Choices": {
+            "A": "access time",
+            "B": "gap time",
+            "C": "transfer time",
+            "D": "constant angular velocity"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 176,
+        "Question": "__________ is the standardized scheme for multiple-disk database design.",
+        "Choices": {
+            "A": "RAID",
+            "B": "CAV",
+            "C": "CLV",
+            "D": "SSD"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 177,
+        "Question": "RAID level ________ has the highest disk overhead of all RAID types.",
+        "Choices": {
+            "A": "0",
+            "B": "1",
+            "C": "3",
+            "D": "5"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 178,
+        "Question": "A _________ is a high-definition video disk that can store 25 Gbytes on a single layer on a single side.",
+        "Choices": {
+            "A": "DVD",
+            "B": "DVD-R",
+            "C": "DVD-RW",
+            "D": "Blu-ray DVD"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 179,
+        "Question": "________ is when the disk rotates more slowly for accesses near the outer edge than for those near the center.",
+        "Choices": {
+            "A": "Constant angular velocity (CAV)",
+            "B": "Magnetoresistive",
+            "C": "Constant linear velocity (CLV)",
+            "D": "Seek time"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 180,
+        "Question": "The areas between pits are called _________.",
+        "Choices": {
+            "A": "lands",
+            "B": "sectors",
+            "C": "cylinders",
+            "D": "strips"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 181,
+        "Question": "A set of I/O modules is a key element of a computer system.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 182,
+        "Question": "An I/O module must recognize one unique address for each peripheral it controls.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 183,
+        "Question": "I/O channels are commonly seen on microcomputers, whereas I/O controllers are used on mainframes.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 184,
+        "Question": "It is the responsibility of the processor to periodically check the status of the I/O module until it finds that the operation is complete.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 185,
+        "Question": "With isolated I/O there is a single address space for memory locations and I/O devices.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 186,
+        "Question": "A disadvantage of memory-mapped I/O is that valuable memory address space is used up.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 187,
+        "Question": "The disadvantage of the software poll is that it is time consuming.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 188,
+        "Question": "With a daisy chain the processor just picks the interrupt line with the highest priority.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 189,
+        "Question": "Bus arbitration makes use of vectored interrupts.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 190,
+        "Question": "The rotating interrupt mode allows the processor to inhibit interrupts from certain devices.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 191,
+        "Question": "Because the 82C55A is programmable via the control register, it can be used to control a variety of simple peripheral devices.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 192,
+        "Question": "When large volumes of data are to be moved, a more efficient technique is direct memory access (DMA).",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 193,
+        "Question": "An I/O channel has the ability to execute I/O instructions, which gives it complete control over I/O operations.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 194,
+        "Question": "A multipoint external interface provides a dedicated line between the I/O module and the external device.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 195,
+        "Question": "A Thunderbolt compatible peripheral interface is no more complex than that of a simple USB device.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 196,
+        "Question": "The _________ contains logic for performing a communication function between the peripheral and the bus.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 197,
+        "Question": "The most common means of computer/user interaction is a __________.",
+        "Choices": {
+            "A": "keyboard/monitor",
+            "B": "mouse/printer",
+            "C": "modem/printer",
+            "D": "monitor/printer"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 198,
+        "Question": "The I/O function includes a _________ requirement to coordinate the flow of traffic between internal resources and external devices.",
+        "Choices": {
+            "A": "cycle",
+            "B": "status reporting",
+            "C": "control and timing",
+            "D": "data"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 199,
+        "Question": "An I/O module that takes on most of the detailed processing burden, presenting a high-level interface to the processor, is usually referred to as an _________.",
+        "Choices": {
+            "A": "I/O channel",
+            "B": "I/O command",
+            "C": "I/O controller",
+            "D": "device controller"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 200,
+        "Question": "An I/O module that is quite primitive and requires detailed control is usually referred to as an _________.",
+        "Choices": {
+            "A": "I/O command",
+            "B": "I/O controller",
+            "C": "I/O channel",
+            "D": "I/O processor"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 201,
+        "Question": "The _________ command causes the I/O module to take an item of data from the data bus and subsequently transmit that data item to the peripheral.",
+        "Choices": {
+            "A": "control",
+            "B": "test",
+            "C": "read",
+            "D": "write"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 202,
+        "Question": "The ________ command is used to activate a peripheral and tell it what to do.",
+        "Choices": {
+            "A": "control",
+            "B": "test",
+            "C": "read",
+            "D": "write"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 203,
+        "Question": "________ is when the DMA module must force the processor to suspend operation temporarily.",
+        "Choices": {
+            "A": "Interrupt",
+            "B": "Thunderbolt",
+            "C": "Cycle stealing",
+            "D": "Lock down"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 204,
+        "Question": "The 8237 DMA is known as a _________ DMA controller.",
+        "Choices": {
+            "A": "command",
+            "B": "cycle stealing",
+            "C": "interrupt",
+            "D": "fly-by"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 205,
+        "Question": "________ is a digital display interface standard now widely adopted for computer monitors, laptop displays, and other graphics and video interfaces.",
+        "Choices": {
+            "A": "DisplayPort",
+            "B": "PCI Express",
+            "C": "Thunderbolt",
+            "D": "InfiniBand"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 206,
+        "Question": "The ________ layer is the key to the operation of Thunderbolt and what makes it attractive as a high-speed peripheral I/O technology.",
+        "Choices": {
+            "A": "cable",
+            "B": "application",
+            "C": "common transport",
+            "D": "physical"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 207,
+        "Question": "The Thunderbolt protocol _________ layer is responsible for link maintenance including hot-plug detection and data encoding to provide highly efficient data transfer.",
+        "Choices": {
+            "A": "cable",
+            "B": "application",
+            "C": "common transport",
+            "D": "physical"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 208,
+        "Question": "The ________ contains I/O protocols that are mapped on to the transport layer.",
+        "Choices": {
+            "A": "cable",
+            "B": "application",
+            "C": "common transport",
+            "D": "physical"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 209,
+        "Question": "A ________ is used to connect storage systems, routers, and other peripheral devices to an InfiniBand switch.",
+        "Choices": {
+            "A": "target channel adapter",
+            "B": "InfiniBand switch",
+            "C": "host channel adapter",
+            "D": "subnet"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 210,
+        "Question": "A ________ connects InfiniBand subnets, or connects an InfiniBand switch to a network such as a local area network, wide area network, or storage area network.",
+        "Choices": {
+            "A": "memory controller",
+            "B": "TCA",
+            "C": "HCA",
+            "D": "router"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 211,
+        "Question": "Scheduling and memory management are the two OS functions that are most relevant to the study of computer organization and architecture.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 212,
+        "Question": "The end user is concerned mainly with the computer's architecture.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 213,
+        "Question": "The most important system program is the OS.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 214,
+        "Question": "The ABI is the boundary between hardware and software.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 215,
+        "Question": "The OS must determine how much processor time is to be devoted to the execution of a particular user program.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 216,
+        "Question": "With a batch operating system the user does not have direct access to the processor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 217,
+        "Question": "Privileged instructions are certain instructions that are designated special and can be executed only by the monitor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 218,
+        "Question": "Uniprogramming is the central theme of modern operating systems.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 219,
+        "Question": "Both batch multiprogramming and time sharing use multiprogramming.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 220,
+        "Question": "An interrupt is a hardware-generated signal to the processor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 221,
+        "Question": "Swapping is an I/O operation.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 222,
+        "Question": "With demand paging it is necessary to load an entire process into main memory.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 223,
+        "Question": "The Pentium II includes hardware for both segmentation and paging.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 224,
+        "Question": "ARM provides a versatile virtual memory system architecture that can be tailored to the needs of the embedded system designer.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 225,
+        "Question": "Managers are users of domains that must observe the access permissions of the individual sections and/or pages that make up that domain.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 226,
+        "Question": "The __________ is a program that controls the execution of application programs and acts as an interface between applications and the computer hardware.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 227,
+        "Question": "Facilities and services provided by the OS that assist the programmer in creating programs are in the form of _________ programs that are not actually part of the OS but are accessible through the OS.",
+        "Choices": {
+            "A": "utility",
+            "B": "multitasking",
+            "C": "JCL",
+            "D": "logical address"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 228,
+        "Question": "The _________ defines the repertoire of machine language instructions that a computer can follow.",
+        "Choices": {
+            "A": "ABI",
+            "B": "API",
+            "C": "HLL",
+            "D": "ISA"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 229,
+        "Question": "The _________ defines the system call interface to the operating system and the hardware resources and services available in a system through the user instruction set architecture.",
+        "Choices": {
+            "A": "HLL",
+            "B": "API",
+            "C": "ABI",
+            "D": "ISA"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 230,
+        "Question": "The ________ gives a program access to the hardware resources and services available in a system through the user instruction set architecture supplemented with high-level language library calls.",
+        "Choices": {
+            "A": "JCL",
+            "B": "ISA",
+            "C": "ABI",
+            "D": "API"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 231,
+        "Question": "A _________ system works only one program at a time.",
+        "Choices": {
+            "A": "batch",
+            "B": "uniprogramming",
+            "C": "kernel",
+            "D": "privileged instruction"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 232,
+        "Question": "A _________ is a special type of programming language used to provide instructions to the monitor.",
+        "Choices": {
+            "A": "job control language",
+            "B": "multiprogram",
+            "C": "kernel",
+            "D": "utility"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 233,
+        "Question": "The _________ scheduler determines which programs are admitted to the system for processing.",
+        "Choices": {
+            "A": "long-term",
+            "B": "medium-term",
+            "C": "short-term",
+            "D": "I/O"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 234,
+        "Question": "The ________ scheduler is also known as the dispatcher.",
+        "Choices": {
+            "A": "long-term",
+            "B": "medium-term",
+            "C": "short-term",
+            "D": "I/O"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 235,
+        "Question": "A _________ is an actual location in main memory.",
+        "Choices": {
+            "A": "logical address",
+            "B": "partition address",
+            "C": "base address",
+            "D": "physical address"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 236,
+        "Question": "________ is when the processor spends most of its time swapping pages rather than executing instructions.",
+        "Choices": {
+            "A": "Swapping",
+            "B": "Thrashing",
+            "C": "Paging",
+            "D": "Multitasking"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 237,
+        "Question": "Virtual memory schemes make use of a special cache called a ________ for page table entries.",
+        "Choices": {
+            "A": "TLB",
+            "B": "HLL",
+            "C": "VMC",
+            "D": "SPB"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 238,
+        "Question": "With _________ the virtual address is the same as the physical address.",
+        "Choices": {
+            "A": "unsegmented unpaged memory",
+            "B": "unsegmented paged memory",
+            "C": "segmented unpaged memory",
+            "D": "segmented paged memory"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 239,
+        "Question": "A _________ is a collection of memory regions.",
+        "Choices": {
+            "A": "APX",
+            "B": "nucleus",
+            "C": "domain",
+            "D": "page table"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 240,
+        "Question": "The OS maintains a __________ for each process that shows the frame location for each page of the process.",
+        "Choices": {
+            "A": "kernel",
+            "B": "page table",
+            "C": "TLB",
+            "D": "logical address"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 241,
+        "Question": "Our primary counting system is based on binary digits to represent numbers.",
+        "Choices": {},
+        "Answer": "F"
+    },
+    {
+        "ID": 242,
+        "Question": "The decimal system has a radix of 100.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 243,
+        "Question": "Negative powers of 10 are used to represent the positions of the numbers for decimal fractions.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 244,
+        "Question": "A number with both an integer and fractional part has digits raised to both positive and negative powers of 10.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 245,
+        "Question": "In any number, the rightmost digit is referred to as the most significant digit.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 246,
+        "Question": "A number cannot be converted from binary notation to decimal notation.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 247,
+        "Question": "There are 50 tens in the number 509.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 248,
+        "Question": "The decimal system is a special case of a positional number system with radix 10 and with digits in the range 0 through 9.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 249,
+        "Question": "Although convenient for computers, the binary system is exceedingly cumbersome for human beings.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 250,
+        "Question": "A nibble is a grouping of four decimal digits.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 251,
+        "Question": "Hexadecimal notation is only used for representing integers.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 252,
+        "Question": "It is extremely easy to convert between binary and hexadecimal notation.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 253,
+        "Question": "Hexadecimal notation is more compact than binary notation.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 254,
+        "Question": "A sequence of hexadecimal digits can be thought of as representing an integer in base 10.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 255,
+        "Question": "Because of the inherent binary nature of digital computer components, all forms of data within computers are represented by various binary codes.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 256,
+        "Question": "The decimal system has a base of _________.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 257,
+        "Question": "Which digit represents \"hundreds\" in the number 8732?",
+        "Choices": {
+            "A": "8",
+            "B": "7",
+            "C": "3",
+            "D": "2"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 258,
+        "Question": "Which of the following is correct?",
+        "Choices": {
+            "A": "25 = (2 x 10^2) + (5 x 10^1)",
+            "B": "289 = (2 x 10^3) + (8 x 10^1) + (9 x 10^0)",
+            "C": "7523 = (7 x 10^3) + (5 x 10^2) + (2 x 10^1) + (3 x 10^0)",
+            "D": "0.628 = (6 x 10^-3) + (2 x 10^-2) + (8 x 10^-1)"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 259,
+        "Question": "In the number 3109, the 3 is referred to as the _________.",
+        "Choices": {
+            "A": "most significant digit",
+            "B": "least significant digit",
+            "C": "radix",
+            "D": "base"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 260,
+        "Question": "In the number 3109, the 9 is referred to as the _________.",
+        "Choices": {
+            "A": "most significant digit",
+            "B": "least significant digit",
+            "C": "radix",
+            "D": "base"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 261,
+        "Question": "Numbers in the binary system are represented to the _________.",
+        "Choices": {
+            "A": "base 0",
+            "B": "base 1",
+            "C": "base 2",
+            "D": "base 10"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 262,
+        "Question": "Hexadecimal has a base of _________.",
+        "Choices": {
+            "A": "2",
+            "B": "8",
+            "C": "10",
+            "D": "16"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 263,
+        "Question": "The binary string 110111100001 is equivalent to __________.",
+        "Choices": {
+            "A": "DE1 (16)",
+            "B": "C78 (16)",
+            "C": "FF64 (16)",
+            "D": "B8F (16)"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 264,
+        "Question": "The _________ system uses only the numbers 0 and 1.",
+        "Choices": {
+            "A": "positional",
+            "B": "binary",
+            "C": "hexadecimal",
+            "D": "decimal"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 265,
+        "Question": "Decimal \"10\" is __________ in binary.",
+        "Choices": {
+            "A": "1000",
+            "B": "0010",
+            "C": "1010",
+            "D": "0001"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 266,
+        "Question": "Decimal \"10\" is _________ in hexadecimal.",
+        "Choices": {
+            "A": "1",
+            "B": "A",
+            "C": "0",
+            "D": "FF"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 267,
+        "Question": "Four bits is called a _________.",
+        "Choices": {
+            "A": "radix point",
+            "B": "byte",
+            "C": "nibble",
+            "D": "binary digit"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 268,
+        "Question": "Another term for \"base\" is __________.",
+        "Choices": {
+            "A": "radix",
+            "B": "integer",
+            "C": "position",
+            "D": "digit"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 269,
+        "Question": "In the number 472.156 the 2 is the _________.",
+        "Choices": {
+            "A": "most significant digit",
+            "B": "radix point",
+            "C": "least significant digit",
+            "D": "none of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 270,
+        "Question": "Binary 0101 is hexadecimal _________.",
+        "Choices": {
+            "A": "0",
+            "B": "5",
+            "C": "A",
+            "D": "10"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 271,
+        "Question": "One drawback of sign-magnitude representation is that there are two representations of 0.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 272,
+        "Question": "Both sign-magnitude representation and twos complement representation use the most significant bit as a sign bit.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 273,
+        "Question": "It is not necessary for the ALU to signal when overflow occurs.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 274,
+        "Question": "Overflow can only occur if there is a carry.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 275,
+        "Question": "Compared with addition and subtraction, multiplication is a complex operation, whether performed in hardware of software.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 276,
+        "Question": "For each 1 on the multiplier, an add and a shift operation are required; but for each 0 only a shift is required.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 277,
+        "Question": "Addition and subtraction can be performed on numbers in twos complement notation by treating them as unsigned integers.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 278,
+        "Question": "Booth's algorithm performs more additions and subtractions than a straightforward algorithm.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 279,
+        "Question": "With a fixed-point notation it is possible to represent a range of positive and negative integers centered on or near 0.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 280,
+        "Question": "An advantage of biased representation is that nonnegative floating-point numbers can be treated as integers for comparison purposes.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 281,
+        "Question": "For base 2 representation, a normal number is one in which the most significant bit of the significand is zero.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 282,
+        "Question": "Actual floating-point representations include a special bit pattern to designate zero.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 283,
+        "Question": "The numbers represented in floating-point notation are not spaced evenly along the number line, as are fixed-point numbers.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 284,
+        "Question": "Overflow is a less serious problem because the result can generally be satisfactorily approximated by 0.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 285,
+        "Question": "One of the trade-offs of floating-point math is that many calculations produce results that are not exact and have to be rounded to the nearest value that the notation can represent.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 286,
+        "Question": "The most common scheme in implementing the integer portion of the ALU is:",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "TWOS COMPLEMENT REPRESENTATION"
+    },
+    {
+        "ID": 287,
+        "Question": "__________ representation is almost universally used as the processor representation for integers.",
+        "Choices": {
+            "A": "Biased",
+            "B": "Twos compliment",
+            "C": "Sign-magnitude",
+            "D": "Decimal"
+        },
+        "Answer": "TWOS COMPLIMENT"
+    },
+    {
+        "ID": 288,
+        "Question": "Moving the sign bit to the new leftmost position and filling in with copies of the sign bit is called _________.",
+        "Choices": {
+            "A": "sign extension",
+            "B": "range extension",
+            "C": "bit extension",
+            "D": "partial extension"
+        },
+        "Answer": "SIGN EXTENSION"
+    },
+    {
+        "ID": 289,
+        "Question": "In ________ representation the rule for forming the negation of an integer is to invert the sign bit.",
+        "Choices": {
+            "A": "ones complement",
+            "B": "twos complement",
+            "C": "biased",
+            "D": "sign-magnitude"
+        },
+        "Answer": "SIGN-MAGNITUDE"
+    },
+    {
+        "ID": 290,
+        "Question": "________ is when the result may be larger than can be held in the word size being used.",
+        "Choices": {
+            "B": "Arithmetic shift",
+            "C": "Underflow",
+            "D": "Partial product"
+        },
+        "Answer": "OVERFLOW"
+    },
+    {
+        "ID": 291,
+        "Question": "__________ involves the generation of partial products, one for each digit in the multiplier, which are then summed to produce the final product.",
+        "Choices": {
+            "A": "Addition",
+            "B": "Subtraction",
+            "C": "Multiplication",
+            "D": "Division"
+        },
+        "Answer": "MULTIPLICATION"
+    },
+    {
+        "ID": 292,
+        "Question": "Although considered obsolete, the term _________ is sometimes used instead of significand.",
+        "Choices": {
+            "A": "minuend",
+            "B": "mantissa",
+            "C": "base",
+            "D": "subtrahend"
+        },
+        "Answer": "MANTISSA"
+    },
+    {
+        "ID": 293,
+        "Question": "Negative numbers less than -(2 - 2^-23) x 2 128 are called _________.",
+        "Choices": {
+            "A": "positive underflow",
+            "B": "positive overflow",
+            "C": "negative underflow",
+            "D": "negative overflow"
+        },
+        "Answer": "NEGATIVE OVERFLOW"
+    },
+    {
+        "ID": 294,
+        "Question": "Negative numbers greater than 2^-127 are called _________.",
+        "Choices": {
+            "A": "negative overflow",
+            "B": "negative underflow",
+            "C": "positive overflow",
+            "D": "positive underflow"
+        },
+        "Answer": "NEGATIVE UNDERFLOW"
+    },
+    {
+        "ID": 295,
+        "Question": "Positive numbers less than 2^-127 are called ________.",
+        "Choices": {
+            "A": "positive underflow",
+            "B": "positive overflow",
+            "C": "negative underflow",
+            "D": "negative overflow"
+        },
+        "Answer": "POSITIVE UNDERFLOW"
+    },
+    {
+        "ID": 296,
+        "Question": "Positive numbers greater than (2 - 2^-23) x 2^-128 are called _________.",
+        "Choices": {
+            "A": "negative underflow",
+            "B": "positive overflow",
+            "C": "positive underflow",
+            "D": "negative overflow"
+        },
+        "Answer": "POSITIVE OVERFLOW"
+    },
+    {
+        "ID": 297,
+        "Question": "_________ formats extend a supported basic format by providing additional bits in the exponent and in the significand.",
+        "Choices": {
+            "A": "Arithmetic",
+            "B": "Basic",
+            "C": "Extended precision",
+            "D": "Interchange"
+        },
+        "Answer": "EXTENDED PRECISION"
+    },
+    {
+        "ID": 298,
+        "Question": "_________ are included in IEEE 754 to handle cases of exponent underflow.",
+        "Choices": {
+            "A": "Subnormal numbers",
+            "B": "Guard bits",
+            "C": "Normal numbers",
+            "D": "Radix points"
+        },
+        "Answer": "SUBNORMAL NUMBERS"
+    },
+    {
+        "ID": 299,
+        "Question": "__________ is when a positive exponent exceeds the maximum possible exponent value.",
+        "Choices": {
+            "A": "Significand underflow",
+            "B": "Significand overflow",
+            "C": "Exponent overflow",
+            "D": "Exponent underflow"
+        },
+        "Answer": "EXPONENT OVERFLOW"
+    },
+    {
+        "ID": 300,
+        "Question": "__________ means that the number is too small to be represented and it may be reported as 0.",
+        "Choices": {
+            "A": "Negative underflow",
+            "B": "Exponent underflow",
+            "C": "Positive underflow",
+            "D": "Significand underflow"
+        },
+        "Answer": "EXPONENT UNDERFLOW"
+    },
+    {
+        "ID": 301,
+        "Question": "The operation of the digital computer is based on the storage and processing of binary data.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 302,
+        "Question": "Claude Shannon, a research assistant in the Electrical Engineering Department at M.I.T., proposed the basic principles of Boolean algebra.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 303,
+        "Question": "In the absence of parentheses, the AND operation takes precedence over the OR operation.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 304,
+        "Question": "Logical functions are implemented by the interconnection of decoders.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 305,
+        "Question": "The delay by the propagation time of signals through the gate is known as the gate delay.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 306,
+        "Question": "A combinational circuit consists of n binary inputs and m binary outputs.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 307,
+        "Question": "Any Boolean function can be implemented in electronic form as a network of gates.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 308,
+        "Question": "A Boolean function can be realized in the sum of products (SOP) form but not in the product of sums (POS) form.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 309,
+        "Question": "\"Don't care\" conditions are when certain combinations of values of variables never occur, and therefore the corresponding output never occurs.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 310,
+        "Question": "The value to be loaded into the program counter can come from a binary counter, the instruction register, or the output of the ALU.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 311,
+        "Question": "In general, a decoder has n inputs and 2^n outputs.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 312,
+        "Question": "Combinational circuits are often referred to as \"memoryless\" circuits because their output depends only on their current input and no history of prior inputs is retained.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 313,
+        "Question": "Binary addition is exactly the same as Boolean algebra.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 314,
+        "Question": "Events in the digital computer are synchronized to a clock pulse so that changes occur only when a clock pulse occurs.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 315,
+        "Question": "A register is a digital circuit used within the CPU to store one or more bits of data.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 316,
+        "Question": "The operand ________ yields true if and only if both of its operands are true.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 317,
+        "Question": "The operation _________ yields true if either or both of its operands are true.",
+        "Choices": {
+            "A": "NOT",
+            "B": "AND",
+            "C": "NAND",
+            "D": "OR"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 318,
+        "Question": "The unary operation _________ inverts the value of its operand.",
+        "Choices": {
+            "A": "OR",
+            "B": "NOT",
+            "C": "NAND",
+            "D": "XOR"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 319,
+        "Question": "A _______ is an electronic circuit that produces an output signal that is a simple Boolean operation on its input signals.",
+        "Choices": {
+            "A": "gate",
+            "B": "decoder",
+            "C": "counter",
+            "D": "flip-flop"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 320,
+        "Question": "Which of the following is a functionally complete set?",
+        "Choices": {
+            "A": "AND, NOT",
+            "B": "NOR",
+            "C": "AND, OR, NOT",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 321,
+        "Question": "For more than four variables an alternative approach is a tabular technique referred to as the _________ method.",
+        "Choices": {
+            "A": "DeMorgan",
+            "B": "Quine-McCluskey",
+            "C": "Karnaugh map",
+            "D": "Boole-Shannon"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 322,
+        "Question": "________ are used in digital circuits to control signal and data routing.",
+        "Choices": {
+            "A": "Multiplexers",
+            "B": "Program counters",
+            "C": "Flip-flops",
+            "D": "Gates"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 323,
+        "Question": "________ is implemented with combinational circuits.",
+        "Choices": {
+            "A": "Nano memory",
+            "B": "Random access memory",
+            "C": "Read only memory",
+            "D": "No memory"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 324,
+        "Question": "The ________ exists in one of two states and, in the absence of input, remains in that state.",
+        "Choices": {
+            "A": "assert",
+            "B": "complex PLD",
+            "C": "decoder",
+            "D": "flip-flop"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 325,
+        "Question": "The ________ flip-flop has two inputs and all possible combinations of input values are valid.",
+        "Choices": {
+            "A": "J-K",
+            "B": "D",
+            "C": "S-R",
+            "D": "clocked S-R"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 326,
+        "Question": "A _________ accepts and/or transfers information serially.",
+        "Choices": {
+            "A": "S-R latch",
+            "B": "shift register",
+            "C": "FPGA",
+            "D": "parallel register"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 327,
+        "Question": "Counters can be designated as _________.",
+        "Choices": {
+            "A": "asynchronous",
+            "B": "synchronous",
+            "C": "both asynchronous and synchronous",
+            "D": "neither asynchronous or synchronous"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 328,
+        "Question": "CPUs make use of _________ counters, in which all of the flip-flops of the counter change at the same time.",
+        "Choices": {
+            "A": "synchronous",
+            "B": "asynchronous",
+            "C": "clocked S-R",
+            "D": "timed ripple"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 329,
+        "Question": "The _________ table provides the value of the next output when the inputs and the present output are known, which is exactly the information needed to design the counter or any sequential circuit.",
+        "Choices": {
+            "A": "excitation",
+            "B": "Kenough",
+            "C": "J-K flip-flop",
+            "D": "FPGA"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 330,
+        "Question": "A _________ is a PLD featuring a general structure that allows very high logic capacity and offers more narrow logic resources and a higher ration of flip-flops to logic resources than do CPLDs.",
+        "Choices": {
+            "A": "SPLD",
+            "B": "FPGA",
+            "C": "PAL",
+            "D": "PLA"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 331,
+        "Question": "One boundary where the computer designer and the computer programmer can view the same machine is the machine instruction set.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 332,
+        "Question": "The operation to be performed is specified by a binary code known as the operation code.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 333,
+        "Question": "The address of the next instruction to be fetched must be a real address, not a virtual address.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 334,
+        "Question": "It has become common practice to use a symbolic representation of machine instructions.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 335,
+        "Question": "A high-level language expresses operations in a basic form involving the movement of data to or from registers.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 336,
+        "Question": "One of the traditional ways of describing processor architecture is in terms of the number of addresses contained in each instruction.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 337,
+        "Question": "Memory references are faster than register references.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 338,
+        "Question": "The instruction set is the programmer's means of controlling the processor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 339,
+        "Question": "Addresses are a form of data.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 340,
+        "Question": "Not all machine languages include numeric data types.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 341,
+        "Question": "ARM processors support data types of 8 (byte), 16 (halfword), and 32 (word) bits in length.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 342,
+        "Question": "Most machines provide the basic arithmetic operations of add, subtract, multiply, and divide.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 343,
+        "Question": "A branch can be either forward or backward.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 344,
+        "Question": "Procedures do not allow programming tasks to be subdivided into smaller units.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 345,
+        "Question": "The focus of MMX technology is multimedia programming.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 346,
+        "Question": "The ________ specifies the operation to be performed.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 347,
+        "Question": "A(n) _________ expresses operations in a concise algebraic form using variables.",
+        "Choices": {
+            "A": "opcode",
+            "B": "high-level language",
+            "C": "machine language",
+            "D": "register"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 348,
+        "Question": "There must be ________ instructions for moving data between memory and the registers.",
+        "Choices": {
+            "A": "branch",
+            "B": "logic",
+            "C": "memory",
+            "D": "I/O"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 349,
+        "Question": "________ instructions operate on the bits of a word as bits rather than as numbers, providing capabilities for processing any other type of data the user may wish to employ.",
+        "Choices": {
+            "A": "Logic",
+            "B": "Arithmetic",
+            "C": "Memory",
+            "D": "Test"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 350,
+        "Question": "_________ instructions provide computational capabilities for processing number data.",
+        "Choices": {
+            "A": "Boolean",
+            "B": "Logic",
+            "C": "Memory",
+            "D": "Arithmetic"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 351,
+        "Question": "_______ instructions are needed to transfer programs and data into memory and the results of computations back out to the user.",
+        "Choices": {
+            "A": "I/O",
+            "B": "Transfer",
+            "C": "Control",
+            "D": "Branch"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 352,
+        "Question": "The x86 data type that is a signed binary value contained in a byte, word, or doubleword, using twos complement representation is _________.",
+        "Choices": {
+            "A": "general",
+            "B": "ordinal",
+            "C": "integer",
+            "D": "packed BCD"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 353,
+        "Question": "The most fundamental type of machine instruction is the _________ instruction.",
+        "Choices": {
+            "A": "conversion",
+            "B": "data transfer",
+            "C": "arithmetic",
+            "D": "logical"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 354,
+        "Question": "The _________ instruction includes an implied address.",
+        "Choices": {
+            "A": "skip",
+            "B": "rotate",
+            "C": "stack",
+            "D": "push"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 355,
+        "Question": "Which of the following is a true statement?",
+        "Choices": {
+            "A": "a procedure can be called from more than one location",
+            "B": "a procedure call can appear in a procedure",
+            "C": "each procedure call is matched by a return in the called program",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 356,
+        "Question": "The entire set of parameters, including return address, which is stored for a procedure invocation is referred to as a _________.",
+        "Choices": {
+            "A": "branch",
+            "B": "stack frame",
+            "C": "pop",
+            "D": "push"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 357,
+        "Question": "Which ARM operation category includes logical instructions (AND, OR, XOR), add and subtract instructions, and test and compare instructions?",
+        "Choices": {
+            "A": "data-processing instructions",
+            "B": "branch instructions",
+            "C": "load and store instructions",
+            "D": "extend instructions"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 358,
+        "Question": "In the ARM architecture only _________ instructions access memory locations.",
+        "Choices": {
+            "A": "data processing",
+            "B": "status register access",
+            "C": "load and store",
+            "D": "branch"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 359,
+        "Question": "Which data type is defined in MMX?",
+        "Choices": {
+            "A": "packed byte",
+            "B": "packed word",
+            "C": "packed doubleword",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 360,
+        "Question": "A branch instruction in which the branch is always taken is _________.",
+        "Choices": {
+            "A": "conditional branch",
+            "B": "unconditional branch",
+            "C": "jump",
+            "D": "bi-endian"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 361,
+        "Question": "The value of the mode field determines which addressing mode is to be used.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 362,
+        "Question": "In a system without virtual memory, the effective address is a virtual address or a register.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 363,
+        "Question": "The disadvantage of immediate addressing is that the size of the number is restricted to the size of the address field.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 364,
+        "Question": "With direct addressing, the length of the address field is usually less than the word length, thus limiting the address range.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 365,
+        "Question": "Register addressing is similar to direct addressing with the only difference being that the address field refers to a register rather than a main memory address.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 366,
+        "Question": "Register indirect addressing uses the same number of memory references as indirect addressing.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 367,
+        "Question": "Three of the most common uses of stack addressing are relative addressing, base-register addressing, and indexing.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 368,
+        "Question": "The method of calculating the EA is the same for both base-register addressing and indexing.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 369,
+        "Question": "Typically an instruction set will include both preindexing and postindexing.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 370,
+        "Question": "The x86 is equipped with a variety of addressing modes intended to allow the efficient execution of high-level languages.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 371,
+        "Question": "The base with index and displacement mode sums the contents of the base register, the index register, and a displacement to form the effective address.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 372,
+        "Question": "The memory transfer rate has not kept up with increases in processor speed.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 373,
+        "Question": "For addresses that reference memory the range of addresses that can be referenced is not related to the number of address bits.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 374,
+        "Question": "The principal price to pay for variable-length instructions is an increase in the complexity of the processor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 375,
+        "Question": "One advantage of linking the addressing mode to the operand rather than the opcode is that any addressing mode can be used with any opcode.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 376,
+        "Question": "The advantage of __________ is that no memory reference other than the instruction fetch is required to obtain the operand.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 377,
+        "Question": "The principal advantage of ___________ addressing is that it is a very simple form of addressing.",
+        "Choices": {
+            "A": "displacement",
+            "B": "register",
+            "C": "stack",
+            "D": "direct"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 378,
+        "Question": "__________ has the advantage of large address space, however it has the disadvantage of multiple memory references.",
+        "Choices": {
+            "A": "Indirect addressing",
+            "B": "Direct addressing",
+            "C": "Immediate addressing",
+            "D": "Stack addressing"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 379,
+        "Question": "The advantages of _________ addressing are that only a small address field is needed in the instruction and no time-consuming memory references are required.",
+        "Choices": {
+            "A": "direct",
+            "B": "indirect",
+            "C": "register",
+            "D": "displacement"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 380,
+        "Question": "__________ has the advantage of flexibility, but the disadvantage of complexity.",
+        "Choices": {
+            "A": "Stack addressing",
+            "B": "Displacement addressing",
+            "C": "Direct addressing",
+            "D": "Register addressing"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 381,
+        "Question": "For _________, the address field references a main memory address and the referenced register contains a positive displacement from that address.",
+        "Choices": {
+            "A": "indexing",
+            "B": "base-register addressing",
+            "C": "relative addressing",
+            "D": "all of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 382,
+        "Question": "Indexing performed after the indirection is __________.",
+        "Choices": {
+            "A": "relative addressing",
+            "B": "autoindexing",
+            "C": "postindexing",
+            "D": "preindexing"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 383,
+        "Question": "For the _________ mode, the operand is included in the instruction.",
+        "Choices": {
+            "A": "immediate",
+            "B": "base",
+            "C": "register",
+            "D": "displacement"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 384,
+        "Question": "The only form of addressing for branch instructions is _________ addressing.",
+        "Choices": {
+            "A": "register",
+            "B": "relative",
+            "C": "base",
+            "D": "immediate"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 385,
+        "Question": "Which of the following interrelated factors go into determining the use of the addressing bits?",
+        "Choices": {
+            "A": "number of operands",
+            "B": "number of register sets",
+            "C": "address range",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 386,
+        "Question": "_________ is a principle by which two variables are independent of each other.",
+        "Choices": {
+            "A": "Opcode",
+            "B": "Orthogonality",
+            "C": "Completeness",
+            "D": "Autoindexing"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 387,
+        "Question": "The _________ was designed to provide a powerful and flexible instruction set within the constraints of a 16-bit minicomputer.",
+        "Choices": {
+            "A": "PDP-1",
+            "B": "PDP-8",
+            "C": "PDP-11",
+            "D": "PDP-10"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 388,
+        "Question": "The __________ byte consists of three fields: the Scale field, the Index field and the Base field.",
+        "Choices": {
+            "A": "SIB",
+            "B": "VAX",
+            "C": "PDP-11",
+            "D": "ModR/M"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 389,
+        "Question": "All instructions in the ARM architecture are __________ bits long and follow a regular format.",
+        "Choices": {
+            "A": "8",
+            "B": "16",
+            "C": "32",
+            "D": "64"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 390,
+        "Question": "__________ is a design principle employed in designing the PDP-10 instruction set.",
+        "Choices": {
+            "A": "Orthogonality",
+            "B": "Completeness",
+            "C": "Direct addressing",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 391,
+        "Question": "The processor needs to store instructions and data temporarily while an instruction is being executed.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 392,
+        "Question": "The control unit (CU) does the actual computation or processing of data.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 393,
+        "Question": "Within the processor there is a set of registers that function as a level of memory above main memory and cache in the hierarchy.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 394,
+        "Question": "Condition codes facilitate multiway branches.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 395,
+        "Question": "The allocation of control information between registers and memory are not considered to be a key design issue.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 396,
+        "Question": "Instruction pipelining is a powerful technique for enhancing performance but requires careful design to achieve optimum results with reasonable complexity.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 397,
+        "Question": "The cycle time of an instruction pipeline is the time needed to advance a set of instructions one stage through the pipeline.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 398,
+        "Question": "A control hazard occurs when two or more instructions that are already in the pipeline need the same resource.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 399,
+        "Question": "One of the major problems in designing an instruction pipeline is assuring a steady flow of instructions to the initial stages of the pipeline.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 400,
+        "Question": "The predict-never-taken approach is the most popular of all the branch prediction methods.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 401,
+        "Question": "It is possible to improve pipeline performance by automatically rearranging instructions within a program so that branch instructions occur later than actually desired.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 402,
+        "Question": "Interrupt processing allows an application program to be suspended in order that a variety of interrupt conditions can be serviced and later resumed.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 403,
+        "Question": "An interrupt is generated from software and it is provoked by the execution of an instruction.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 404,
+        "Question": "While the processor is in user mode the program being executed is unable to access protected system resources or to change mode, other than by causing an exception to occur.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 405,
+        "Question": "The exception modes have full access to system resources and can change modes freely.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 406,
+        "Question": "__________ are a set of storage locations.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 407,
+        "Question": "The ________ controls the movement of data and instructions into and out of the processor.",
+        "Choices": {
+            "A": "control unit",
+            "B": "ALU",
+            "C": "shifter",
+            "D": "branch"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 408,
+        "Question": "________ registers may be used only to hold data and cannot be employed in the calculation of an operand address.",
+        "Choices": {
+            "A": "General purpose",
+            "B": "Data",
+            "C": "Address",
+            "D": "Condition code"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 409,
+        "Question": "__________ are bits set by the processor hardware as the result of operations.",
+        "Choices": {
+            "A": "MIPS",
+            "B": "Condition codes",
+            "C": "Stacks",
+            "D": "PSWs"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 410,
+        "Question": "The _________ contains the address of an instruction to be fetched.",
+        "Choices": {
+            "A": "instruction register",
+            "B": "memory address register",
+            "C": "memory buffer register",
+            "D": "program counter"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 411,
+        "Question": "The _________ contains a word of data to be written to memory or the word most recently read.",
+        "Choices": {
+            "A": "MAR",
+            "B": "PC",
+            "C": "MBR",
+            "D": "IR"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 412,
+        "Question": "The ________ determines the opcode and the operand specifiers.",
+        "Choices": {
+            "A": "decode instruction",
+            "B": "fetch operands",
+            "C": "calculate operands",
+            "D": "execute instruction"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 413,
+        "Question": "_________ is a pipeline hazard.",
+        "Choices": {
+            "A": "Control",
+            "B": "Resource",
+            "C": "Data",
+            "D": "All of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 414,
+        "Question": "A ________ hazard occurs when there is a conflict in the access of an operand location.",
+        "Choices": {
+            "A": "resource",
+            "B": "data",
+            "C": "structural",
+            "D": "control"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 415,
+        "Question": "A _________ is a small, very-high-speed memory maintained by the instruction fetch stage of the pipeline and containing the n most recently fetched instructions in sequence.",
+        "Choices": {
+            "A": "loop buffer",
+            "B": "delayed branch",
+            "C": "multiple stream",
+            "D": "branch prediction"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 416,
+        "Question": "The _________ is a small cache memory associated with the instruction fetch stage of the pipeline.",
+        "Choices": {
+            "A": "dynamic branch",
+            "B": "loop table",
+            "C": "branch history table",
+            "D": "flag"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 417,
+        "Question": "The _________ stage includes ALU operations, cache access, and register update.",
+        "Choices": {
+            "A": "decode",
+            "B": "execute",
+            "C": "fetch",
+            "D": "write back"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 418,
+        "Question": "________ is used for debugging.",
+        "Choices": {
+            "A": "Direction flag",
+            "B": "Alignment check",
+            "C": "Trap flag",
+            "D": "Identification flag"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 419,
+        "Question": "The ARM architecture supports _______ execution modes.",
+        "Choices": {
+            "A": "2",
+            "B": "8",
+            "C": "11",
+            "D": "7"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 420,
+        "Question": "The OS usually runs in ________.",
+        "Choices": {
+            "A": "supervisor mode",
+            "B": "abort mode",
+            "C": "undefined mode",
+            "D": "fast interrupt mode"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 421,
+        "Question": "Microprogramming eases the task of designing and implementing the control unit and provides support for the family concept.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 422,
+        "Question": "Pipelining is a means of introducing parallelism into the essentially sequential nature of a machine-instruction program.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 423,
+        "Question": "The major cost in the life cycle of a system is hardware.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 424,
+        "Question": "It is common for programs, both system and application, to continue to exhibit new bugs after years of operation.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 425,
+        "Question": "Procedure calls and returns are not important aspects of HLL programs.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 426,
+        "Question": "The register file is on the same chip as the ALU and control unit.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 427,
+        "Question": "The register file employs much shorter addresses than addresses for cache and memory.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 428,
+        "Question": "To handle any possible pattern of calls and returns the number of register windows would have to be unbounded.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 429,
+        "Question": "Cache memory is a much faster memory than the register file.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 430,
+        "Question": "The cache is capable of handling global as well as local variables.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 431,
+        "Question": "With simple, one cycle instructions, there is little or no need for microcode.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 432,
+        "Question": "When using graph coloring, nodes that share the same color cannot be assigned to the same register.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 433,
+        "Question": "Almost all RISC instructions use simple register addressing.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 434,
+        "Question": "RISC processors are more responsive to interrupts because interrupts are checked between rather elementary operations.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 435,
+        "Question": "Unrolling can improve performance by increasing instruction parallelism by improving pipeline performance.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 436,
+        "Question": "_________ determines the control and pipeline organization.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 437,
+        "Question": "The Patterson study examined the dynamic behavior of _________ programs, independent of the underlying architecture.",
+        "Choices": {
+            "A": "HLL",
+            "B": "RISC",
+            "C": "CISC",
+            "D": "all of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 438,
+        "Question": "_________ is the fastest available storage device.",
+        "Choices": {
+            "A": "Main memory",
+            "B": "Cache",
+            "C": "Register storage",
+            "D": "HLL"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 439,
+        "Question": "The first commercial RISC product was _________.",
+        "Choices": {
+            "A": "SPARC",
+            "B": "CISC",
+            "C": "VAX",
+            "D": "the Pyramid"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 440,
+        "Question": "_________ instructions are used to position quantities in registers temporarily for computational operations.",
+        "Choices": {
+            "A": "Load-and-store",
+            "B": "Window",
+            "C": "Complex",
+            "D": "Branch"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 441,
+        "Question": "Which stage is required for load and store operations?",
+        "Choices": {
+            "A": "I",
+            "B": "E",
+            "C": "D",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 442,
+        "Question": "A ________ instruction can be used to account for data and branch delays.",
+        "Choices": {
+            "A": "SUB",
+            "B": "NOOP",
+            "C": "JUMP",
+            "D": "all of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 443,
+        "Question": "The instruction location immediately following the delayed branch is referred to as the ________.",
+        "Choices": {
+            "A": "delay load",
+            "B": "delay file",
+            "C": "delay slot",
+            "D": "delay register"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 444,
+        "Question": "A tactic similar to the delayed branch is the _________, which can be used on LOAD instructions.",
+        "Choices": {
+            "A": "delayed load",
+            "B": "delayed program",
+            "C": "delayed slot",
+            "D": "delayed register"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 445,
+        "Question": "The MIPS R4000 uses ________ bits for all internal and external data paths and for addresses, registers, and the ALU.",
+        "Choices": {
+            "A": "16",
+            "B": "32",
+            "C": "64",
+            "D": "128"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 446,
+        "Question": "All MIPS R series processor instructions are encoded in a single ________ word format.",
+        "Choices": {
+            "A": "4-bit",
+            "B": "8-bit",
+            "C": "16-bit",
+            "D": "32-bit"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 447,
+        "Question": "A _________ architecture is one that makes use of more, and more fine-grained pipeline stages.",
+        "Choices": {
+            "A": "parallel",
+            "B": "superpipelined",
+            "C": "superscalar",
+            "D": "hybrid"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 448,
+        "Question": "The R4000 can have as many as _______ instructions in the pipeline at the same time.",
+        "Choices": {
+            "A": "8",
+            "B": "10",
+            "C": "5",
+            "D": "3"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 449,
+        "Question": "SPARC refers to an architecture defined by ________.",
+        "Choices": {
+            "A": "Microsoft",
+            "B": "Apple",
+            "C": "Sun Microsystems",
+            "D": "IBM"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 450,
+        "Question": "The R4000 pipeline stage where the instruction result is written back to the register file is the __________ stage.",
+        "Choices": {
+            "A": "write back",
+            "B": "tag check",
+            "C": "data cache",
+            "D": "instruction execute"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 451,
+        "Question": "The superscalar approach has now become the standard method for implementing high-performance microprocessors.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 452,
+        "Question": "In a traditional scalar organization there is a single pipelined functional unit for integer operations and one for floating-point operations.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 453,
+        "Question": "In the scalar organization there are multiple functional units, each of which is implemented as a pipeline and provides a degree of parallelism by virtue of its pipelined structure.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 454,
+        "Question": "The superscalar approach depends on the ability to execute multiple instructions in parallel.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 455,
+        "Question": "True data dependency is also called flow dependency or read after write (RAW) dependency.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 456,
+        "Question": "Resources include: memories, caches, buses, and register-file ports.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 457,
+        "Question": "Machine parallelism exists when instructions in a sequence are independent and thus can be executed in parallel by overlapping.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 458,
+        "Question": "The simplest instruction issue policy is to issue instructions in the exact order that would be achieved by sequential execution (in-order issue) and to write results in that same order (in-order completion).",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 459,
+        "Question": "In-order completion requires more complex instruction issue logic than out-of-order completion.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 460,
+        "Question": "The reorder buffer is temporary storage for results completed out of order that are then committed to the register file in program order.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 461,
+        "Question": "Register renaming eliminates antidependencies and output dependencies.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 462,
+        "Question": "In effect, the Pentium 4 architecture implements a CISC instruction set architecture on a RISC microarchitecture.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 463,
+        "Question": "The schedulers are responsible for retrieving micro-ops from the micro-op queues and dispatching these for execution.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 464,
+        "Question": "ARM architecture has yet to implement superscalar techniques in the instruction pipeline.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 465,
+        "Question": "The Cortex-A8 targets a wide variety of mobile and consumer applications including mobile phones, set-top boxes, gaming consoles and automotives navigation/entertainment systems.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 466,
+        "Question": "The superscalar approach can be used on __________ architecture.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 467,
+        "Question": "The essence of the ________ approach is the ability to execute instructions independently and concurrently in different pipelines.",
+        "Choices": {
+            "A": "scalar",
+            "B": "branch",
+            "C": "superscalar",
+            "D": "flow dependency"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 468,
+        "Question": "Which of the following is a fundamental limitation to parallelism with which the system must cope?",
+        "Choices": {
+            "A": "procedural dependency",
+            "B": "resource conflicts",
+            "C": "antidependency",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 469,
+        "Question": "The situation where the second instruction needs data produced by the first instruction to execute is referred to as __________.",
+        "Choices": {
+            "A": "true data dependency",
+            "B": "output dependency",
+            "C": "procedural dependency",
+            "D": "antidependency"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 470,
+        "Question": "The instructions following a branch have a _________ on the branch and cannot be executed until the branch is executed.",
+        "Choices": {
+            "A": "resource dependency",
+            "B": "procedural dependency",
+            "C": "output dependency",
+            "D": "true data dependency"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 471,
+        "Question": "________ refers to the process of initiating instruction execution in the processor's functional units.",
+        "Choices": {
+            "A": "Instruction issue",
+            "B": "In-order issue",
+            "C": "Out-of-order issue",
+            "D": "Procedural issue"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 472,
+        "Question": "Instead of the first instruction producing a value that the second instruction uses, with ___________ the second instruction destroys a value that the first instruction uses.",
+        "Choices": {
+            "A": "in-order issue",
+            "B": "resource conflict",
+            "C": "antidependency",
+            "D": "out-of-order completion"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 473,
+        "Question": "________ indicates whether this micro-op is scheduled for execution, has been dispatched for execution, or has completed execution and is ready for retirement.",
+        "Choices": {
+            "A": "State",
+            "B": "Memory address",
+            "C": "Micro-op",
+            "D": "Alias register"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 474,
+        "Question": "__________ exists when instructions in a sequence are independent and thus can be executed in parallel by overlapping.",
+        "Choices": {
+            "A": "Flow dependency",
+            "B": "Instruction-level parallelism",
+            "C": "Machine parallelism",
+            "D": "Instruction issue"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 475,
+        "Question": "_________ is determined by the number of instructions that can be fetched and executed at the same time and by the speed and sophistication of the mechanisms that the processor uses to find independent instructions.",
+        "Choices": {
+            "A": "Machine parallelism",
+            "B": "Instruction-level parallelism",
+            "C": "Output dependency",
+            "D": "Procedural dependency"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 476,
+        "Question": "________ is a protocol used to issue instructions.",
+        "Choices": {
+            "A": "Micro-ops",
+            "B": "Scalar",
+            "C": "SIMD",
+            "D": "Instruction issue policy"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 477,
+        "Question": "________ is used in scalar RISC processors to improve the performance of instructions that require multiple cycles.",
+        "Choices": {
+            "A": "In-order completion",
+            "B": "In-order issue",
+            "C": "Out-of-order completion",
+            "D": "Out-of-order issue"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 478,
+        "Question": "Which of the following is a hardware technique that can be used in a superscalar processor to enhance performance?",
+        "Choices": {
+            "A": "duplication of resources",
+            "B": "out-of-order issue",
+            "C": "renaming",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 479,
+        "Question": "The ________ introduced a full-blown superscalar design with out-of-order execution.",
+        "Choices": {
+            "A": "Pentium",
+            "B": "Pentium Pro",
+            "C": "386",
+            "D": "486"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 480,
+        "Question": "Utilizing a branch target buffer (BTB), the _________ uses a dynamic branch prediction strategy based on the history of recent executions of branch instructions.",
+        "Choices": {
+            "A": "486",
+            "B": "Pentium",
+            "C": "Pentium 4",
+            "D": "Pentium Pro"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 481,
+        "Question": "Symmetric multiprocessors (SMPs) are one of the earliest, and still the most common, example of parallel organization.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 482,
+        "Question": "The key to the design of a supercomputer or array processor is to recognize that the main task is to perform arithmetic operations on arrays or vectors of floating-point numbers.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 483,
+        "Question": "The term SMP refers to a computer hardware architecture and also to the operating system behavior that reflects that architecture.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 484,
+        "Question": "With multithreading the instruction stream is divided into several smaller streams, known as threads, such that the threads can be executed in parallel.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 485,
+        "Question": "An attractive feature of an SMP is that the existence of multiple processors is transparent to the user.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 486,
+        "Question": "The main drawback of the bus organization is reliability.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 487,
+        "Question": "An L1 cache that does not connect directly to the bus cannot engage in a snoopy protocol.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 488,
+        "Question": "With a write-update protocol there can be multiple readers but only one writer at a time.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 489,
+        "Question": "The function of switching applications and data resources over from a failed system to an alternative system in the cluster is referred to as failback.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 490,
+        "Question": "The most important measure of performance for a processor is the rate at which it executes instructions.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 491,
+        "Question": "An SMP operating system manages processor and other computer resources so that the user perceives a single operating system controlling system resources.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 492,
+        "Question": "The objective with NUMA is to maintain a transparent system wide memory while permitting multiple multiprocessor nodes, each with its own bus or other internal interconnect system.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 493,
+        "Question": "Software cache coherence schemes attempt to avoid the need for additional hardware circuitry and logic by relying on the compiler and operating system to deal with the problem.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 494,
+        "Question": "Both clusters and symmetric multiprocessors provide a configuration with multiple processors to support high-demand applications.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 495,
+        "Question": "Snoopy protocols are not suitable for a bus-based multiprocessor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 496,
+        "Question": "_________ causes results issuing from one functional unit to be fed immediately into another functional unit and so on.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 497,
+        "Question": "With ________ instructions are simultaneously issued from multiple threads to the execution units of a superscalar processor.",
+        "Choices": {},
+        "Answer": "A"
+    },
+    {
+        "ID": 498,
+        "Question": "The ________ contains control fields, such as the vector count, that determine how many elements in the vector registers are to be processed.",
+        "Choices": {},
+        "Answer": "C"
+    },
+    {
+        "ID": 499,
+        "Question": "Replicating the entire processor on a single chip with each processor handling separate threads is _________.",
+        "Choices": {},
+        "Answer": "D"
+    },
+    {
+        "ID": 500,
+        "Question": "A ________ is a dispatchable unit of work within a process that includes a processor context and its own data area for a stack.",
+        "Choices": {},
+        "Answer": "C"
+    },
+    {
+        "ID": 501,
+        "Question": "An operation that switches the processor from one process to another by saving all the process control data, register, and other information for the first and replacing them with the process information for the second is:",
+        "Choices": {},
+        "Answer": "B"
+    },
+    {
+        "ID": 502,
+        "Question": "Hardware-based solutions are generally referred to as cache coherence _______.",
+        "Choices": {},
+        "Answer": "C"
+    },
+    {
+        "ID": 503,
+        "Question": "A __________ is an instance of a program running on a computer.",
+        "Choices": {},
+        "Answer": "A"
+    },
+    {
+        "ID": 504,
+        "Question": "SMPs, clusters, and NUMA systems fit into the ________ category of computer systems.",
+        "Choices": {},
+        "Answer": "B"
+    },
+    {
+        "ID": 505,
+        "Question": "A _________ problem arises when multiple copies of the same data can exist in different caches simultaneously, and if processors are allowed to update their own copies freely, an inconsistent view of memory can result.",
+        "Choices": {},
+        "Answer": "A"
+    },
+    {
+        "ID": 506,
+        "Question": "With no multithreading, _________ is the simple pipeline found in traditional RISC and CISC machines.",
+        "Choices": {},
+        "Answer": "B"
+    },
+    {
+        "ID": 507,
+        "Question": "Uniprocessors fall into the _______ category of computer systems.",
+        "Choices": {},
+        "Answer": "C"
+    },
+    {
+        "ID": 508,
+        "Question": "Vector and array processors fall into the ________ category of computer systems.",
+        "Choices": {},
+        "Answer": "A"
+    },
+    {
+        "ID": 509,
+        "Question": "Which of the following is an approach to vector computation?",
+        "Choices": {},
+        "Answer": "D"
+    },
+    {
+        "ID": 510,
+        "Question": "A taxonomy first introduced by _______ is still the most common way of categorizing systems with parallel processing capability.",
+        "Choices": {},
+        "Answer": "B"
+    },
+    {
+        "ID": 511,
+        "Question": "The organizational changes in processor design have primarily been focused on increasing instruction-level parallelism so that more work could be done in each clock cycle.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 512,
+        "Question": "With superscalar organization increased performance can be achieved by increasing the number of parallel pipelines.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 513,
+        "Question": "The increasingly difficult engineering challenge related to processor logic is one of the reasons that an increasing fraction of the processor chip is devote to the simpler memory logic.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 514,
+        "Question": "The demand on power requirements has not grown as chip density and clock frequency have risen.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 515,
+        "Question": "As chip transistor density has increased, the percentage of chip area devoted to memory has decreased.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 516,
+        "Question": "The potential performance benefits of a multicore organization depend on the ability to effectively exploit the parallel resources available to the application.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 517,
+        "Question": "Database management systems and database applications are one area in which multicore systems can be used effectively.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 518,
+        "Question": "Even if an individual application does not scale to take advantage of a large number of threads, it is still possible to gain from multicore architecture by running multiple instances of the application in parallel.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 519,
+        "Question": "With hybrid threading each major module is single threaded and the principal coordination involves synchronizing all the threads with a timeline thread.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 520,
+        "Question": "The ARM11 MPCore is an example of the L1 cache being divided into instruction and data caches.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 521,
+        "Question": "An advantage of using a shared L2 cache on the chip is that data shared by multiple cores is not replicated at the shared cache level.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 522,
+        "Question": "A potential advantage to having only dedicate L2 caches on the chip is that each core enjoys more rapid access to its private L2 cache.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 523,
+        "Question": "The thermal management unit monitors digital sensors for high-accuracy die temperature measurements.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 524,
+        "Question": "The Advanced Programmable Interrupt controller (APIC) monitors thermal conditions and CPU activity and adjusts voltage levels and power consumption appropriately.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 525,
+        "Question": "A multicore computer combines two or more processors on a single piece of silicon.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 526,
+        "Question": "With _______, register banks are replicated so that multiple threads can share the use of pipeline resources.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 527,
+        "Question": "_________ is where individual instructions are executed through a pipeline of stages so that while one instruction is executing in one stage of the pipeline, another instruction is executing in another stage of the pipeline.",
+        "Choices": {
+            "A": "Superscalar",
+            "B": "Scalar",
+            "C": "Pipelining",
+            "D": "Simultaneous multithreading"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 528,
+        "Question": "_________ is when multiple pipelines are constructed by replicating execution resources, enabling parallel execution of instructions in parallel pipelines so long as hazards are avoided.",
+        "Choices": {
+            "A": "Vectoring",
+            "B": "Superscalar",
+            "C": "Hybrid multithreading",
+            "D": "Pipelining"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 529,
+        "Question": "One way to control power density is to use more of the chip area for ________.",
+        "Choices": {
+            "A": "multicore",
+            "B": "cache memory",
+            "C": "silicon",
+            "D": "resistors"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 530,
+        "Question": "Lotus Domino or Siebel CRM are examples of ___________ applications.",
+        "Choices": {
+            "A": "threaded",
+            "B": "multi-process",
+            "C": "Java",
+            "D": "multi-instance"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 531,
+        "Question": "Oracle database, SAP, and PeopleSoft are examples of ________ applications.",
+        "Choices": {
+            "A": "Java",
+            "B": "multithreaded native",
+            "C": "multi-instance",
+            "D": "multi-process"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 532,
+        "Question": "_______ applications that can benefit directly from multicore resources include application servers such as Sun's Java Application Server, BEA's Weblogic, IBM's Websphere, and the open-source Tomcat application server.",
+        "Choices": {
+            "A": "Multi-instance",
+            "B": "Multi-process",
+            "C": "Java",
+            "D": "Threaded"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 533,
+        "Question": "Putting rendering on one processor, AI on another, and physics on another is an example of _________ threading.",
+        "Choices": {
+            "A": "coarse",
+            "B": "multi-instance",
+            "C": "fine-grained",
+            "D": "hybrid"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 534,
+        "Question": "A loop that iterates over an array of data can be split up into a number of smaller parallel loops in individual threads that can be scheduled in parallel when using ________ threading.",
+        "Choices": {
+            "A": "multi-process",
+            "B": "fine-grained",
+            "C": "hybrid",
+            "D": "coarse"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 535,
+        "Question": "The _________ is an example of splitting off a separate, shared L3 cache, with dedicated L1 and L2 caches for each core processor.",
+        "Choices": {
+            "A": "IBM 370",
+            "B": "ARM11 MPCore",
+            "C": "AMD Opteron",
+            "D": "Intel Core i7"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 536,
+        "Question": "The ________ connects to the external bus, known as the Front Side Bus, which connects to main memory, I/O controllers, and other processor chips.",
+        "Choices": {
+            "A": "L2",
+            "B": "APIC",
+            "C": "bus interface",
+            "D": "all of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 537,
+        "Question": "The Intel Core i7-990X, introduced in 2008, implements ______ x86 SMT processors, each with a dedicated L2 cache, and with a shared L3 cache.",
+        "Choices": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "8"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 538,
+        "Question": "Processors are called ________.",
+        "Choices": {
+            "A": "dies",
+            "B": "cores",
+            "C": "QPI",
+            "D": "interconnects"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 539,
+        "Question": "The ________ feature enables moving dirty data from one CPU to another without writing to L2 and reading the data back in from external memory.",
+        "Choices": {
+            "A": "migratory lines",
+            "B": "DDI",
+            "C": "VFP unit",
+            "D": "IPIs"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 540,
+        "Question": "The ________ is responsible for maintaining coherency among L1 data caches.",
+        "Choices": {
+            "A": "VFP unit",
+            "B": "distributed interrupt controller",
+            "C": "snoop control unit (SCU)",
+            "D": "watchdog"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 541,
+        "Question": "A microprogram consists of a sequence of instructions in a microprogramming language.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 542,
+        "Question": "A microprogrammed control unit is a relatively complex logic circuit.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 543,
+        "Question": "Microprogramming became a popular technique for implementing the control unit of CISC processors.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 544,
+        "Question": "To implement a control unit as an interconnection of basic logic elements is a very simple task.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 545,
+        "Question": "A microprogram is midway between hardware and software.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 546,
+        "Question": "It is easier to design in hardware than in firmware.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 547,
+        "Question": "It is more difficult to write a firmware program than a software program.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 548,
+        "Question": "Reading a microinstruction from the control memory is the same as executing that microinstruction.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 549,
+        "Question": "The advantage of horizontal microinstructions is that they are more compact than vertical microinstructions, at the expense of a small additional amount of logic and time delay.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 550,
+        "Question": "The principal advantage of the use of microprogramming to implement a control unit is that it simplifies the design of the control unit.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 551,
+        "Question": "The principal disadvantage of a microprogrammed unit is that it will be somewhat slower than a hardwired unit of comparable technology.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 552,
+        "Question": "It is important to design compact, time-efficient techniques for microinstruction branching.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 553,
+        "Question": "The degree of packing relates to the degree of identification between a given control task and specific microinstruction bits.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 554,
+        "Question": "The PDP-11 is the first member of the LSI-11 family that was offered as a single board processor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 555,
+        "Question": "The TI 8800 Software Development Board is a microprogrammable 32-bit computer card that fits into an IBM PC-compatible host computer.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 556,
+        "Question": "QN=1 The term microprogram was first coined by __________ in the early 1950s.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 557,
+        "Question": "QN=2 The set of microinstructions is stored in the __________.",
+        "Choices": {
+            "A": "control address register",
+            "B": "control buffer register",
+            "C": "control memory",
+            "D": "control word"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 558,
+        "Question": "QN=3 The _________ contains the address of the next microinstruction to be read.",
+        "Choices": {
+            "A": "control memory",
+            "B": "control address register",
+            "C": "control word",
+            "D": "control buffer register"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 559,
+        "Question": "QN=4 When a microinstruction is read from the control memory it is transferred to a _________.",
+        "Choices": {
+            "A": "control buffer register",
+            "B": "control memory",
+            "C": "control address register",
+            "D": "control unit"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 560,
+        "Question": "QN=5 Which of the following is a control unit input?",
+        "Choices": {
+            "A": "IR",
+            "B": "ALU flags",
+            "C": "clock",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 561,
+        "Question": "QN=6 In executing a microprogram the address of the next microinstruction to be executed is in which of the following categories?",
+        "Choices": {
+            "A": "determined by instruction register",
+            "B": "branch",
+            "C": "next sequential address",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 562,
+        "Question": "QN=7 The terms __________ relate to the relative width of microinstructions.",
+        "Choices": {
+            "A": "packed/unpacked",
+            "B": "hard/soft",
+            "C": "horizontal/vertical",
+            "D": "direct/indirect"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 563,
+        "Question": "QN=8 The terms _________ microprogramming are used to suggest the degree of closeness to the underlying control signals and hardware layout.",
+        "Choices": {
+            "A": "hard/soft",
+            "B": "horizontal/vertical",
+            "C": "direct/indirect",
+            "D": "packed/unpacked"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 564,
+        "Question": "QN=9 With _________ encoding one field is used to determine the interpretation of another field.",
+        "Choices": {
+            "A": "resource",
+            "B": "indirect",
+            "C": "direct",
+            "D": "functional"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 565,
+        "Question": "QN=10 Which of the following is a LSI-11 microinstruction?",
+        "Choices": {
+            "A": "add word",
+            "B": "test word",
+            "C": "Jump",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 566,
+        "Question": "QN=11 The standard IBM 3033 control memory consists of ________ words.",
+        "Choices": {
+            "A": "2K",
+            "B": "8K",
+            "C": "4K",
+            "D": "16K"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 567,
+        "Question": "QN=12 The _________ allows multiple levels of nested calls or interrupts and it can be used to support branching and looping.",
+        "Choices": {
+            "A": "stack",
+            "B": "register",
+            "C": "counter",
+            "D": "firmware"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 568,
+        "Question": "QN=13 The _________ is a 32-bit ALU with 64 registers that can be configured to operate as four 8-bit ALUs, two 16-bit ALUs, or a single 32-bit ALU.",
+        "Choices": {
+            "A": "PDP-11",
+            "B": "8832",
+            "C": "3033",
+            "D": "8818"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 569,
+        "Question": "QN=14 _________ is a subfield that is used to indicate a conditional branch.",
+        "Choices": {
+            "A": "ZERION",
+            "B": "S2-S0",
+            "C": "SELDR",
+            "D": "OSEL"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 570,
+        "Question": "QN=15 A _________ is a combinatorial circuit that generates an address based on the microinstruction, the machine instruction, the microinstruction program counter, and an interrupt register.",
+        "Choices": {
+            "A": "microsequencer",
+            "B": "vertical microinstruction",
+            "C": "translation array",
+            "D": "control word"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 571,
+        "Question": "A cycle is made up of a sequence of micro-operations.",
+        "Choices": {},
+        "Answer": "T"
+    },
+    {
+        "ID": 572,
+        "Question": "One technique for implementing a control unit is referred to as hardwired implementation, in which the control unit is a combinatorial circuit.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 573,
+        "Question": "Knowing the machine instruction set does not play a part in knowing the functions that the processor must perform.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 574,
+        "Question": "The control unit controls the operation of the processor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 575,
+        "Question": "The sequence of instruction cycles are always the same as the written sequence of instructions that make up the program.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 576,
+        "Question": "The execution of a program consists of the sequential execution of instructions.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 577,
+        "Question": "The \"read word from memory\" and \"increment PC\" actions cannot be used simultaneously because they will interfere with each other.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 578,
+        "Question": "Each micro-operation of the fetch cycle involves the movement of data into or out of a register.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 579,
+        "Question": "At the completion of the execute cycle a test is made to determine whether any enabled interrupts have occurred, and if they have, the interrupt cycle occurs.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 580,
+        "Question": "The execute cycle is simple and predictable.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 581,
+        "Question": "Each phase of the instruction cycle can be decomposed into a sequence of elementary micro-operations.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 582,
+        "Question": "For the control unit to perform its function it must have inputs that allow it to determine the state of the system and outputs that allow it to control the behavior of the system.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 583,
+        "Question": "The control unit is the engine that runs the entire computer.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 584,
+        "Question": "The use of common data paths simplifies the interconnection layout and the control of the processor.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "T"
+    },
+    {
+        "ID": 585,
+        "Question": "The number of machine cycles for an instruction depends on the number of times the processor must communicate with internal devices.",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "F"
+    },
+    {
+        "ID": 586,
+        "Question": "QN=1 A single micro-operation generally involves which of the following?",
+        "Choices": {
+            "A": "T",
+            "B": "F"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 587,
+        "Question": "QN=2 Each instruction executed during an instruction cycle is made up of shorter ______.",
+        "Choices": {
+            "A": "executions",
+            "B": "subcycles",
+            "C": "steps",
+            "D": "none of the above"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 588,
+        "Question": "QN=3 __________ are the functional, or atomic, operations of a processor.",
+        "Choices": {
+            "A": "Micro-operations",
+            "B": "Interrupts",
+            "C": "Subcycles",
+            "D": "All of the above"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 589,
+        "Question": "QN=4 The _________ cycle occurs at the beginning of each instruction cycle and causes an instruction to be fetched from memory.",
+        "Choices": {
+            "A": "execute",
+            "B": "indirect",
+            "C": "fetch",
+            "D": "interrupt"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 590,
+        "Question": "QN=5 The _________ is connected to the address lines of the system bus.",
+        "Choices": {
+            "A": "MBR",
+            "B": "MAR",
+            "C": "PC",
+            "D": "IR"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 591,
+        "Question": "QN=6 The ________ is connected to the data lines of the system bus.",
+        "Choices": {
+            "A": "MAR",
+            "B": "PC",
+            "C": "MBR",
+            "D": "IR"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 592,
+        "Question": "QN=7 The ________ holds the address of the next instruction to be fetched.",
+        "Choices": {
+            "A": "IR",
+            "B": "PC",
+            "C": "MAR",
+            "D": "MBR"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 593,
+        "Question": "QN=8 The _________ holds the last instruction fetched.",
+        "Choices": {
+            "A": "PC",
+            "B": "MBR",
+            "C": "MAR",
+            "D": "IR"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 594,
+        "Question": "QN=9 The groupings of micro-operations must follow which rule?",
+        "Choices": {
+            "A": "a sequence of events does not need to be followed",
+            "B": "use read to and write from the same register in one time unit",
+            "C": "conflicts must be avoided",
+            "D": "all of the above"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 595,
+        "Question": "QN=10 The _______ designates the state of the processor in terms of which portion of the cycle it is in.",
+        "Choices": {
+            "A": "ICC",
+            "B": "BSA",
+            "C": "ALE",
+            "D": "ISC"
+        },
+        "Answer": "A"
+    },
+    {
+        "ID": 596,
+        "Question": "QN=11 Machine cycles are defined to be equivalent to ________ accesses.",
+        "Choices": {
+            "A": "flag",
+            "B": "bus",
+            "C": "clock",
+            "D": "path"
+        },
+        "Answer": "B"
+    },
+    {
+        "ID": 597,
+        "Question": "QN=12 The ________ portion of the control unit issues a repetitive sequence of pulses.",
+        "Choices": {
+            "A": "instruction register",
+            "B": "flag",
+            "C": "control bus signals",
+            "D": "clock"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 598,
+        "Question": "QN=13 The ________ pulse signals the start of each machine cycle from the control unit and alerts external circuits.",
+        "Choices": {
+            "A": "AC",
+            "B": "INSTR",
+            "C": "ALE",
+            "D": "OUT"
+        },
+        "Answer": "C"
+    },
+    {
+        "ID": 599,
+        "Question": "QN=14 Which of the following is an Intel 8085 external signal?",
+        "Choices": {
+            "A": "CLK(OUT)",
+            "B": "read control",
+            "C": "HOLDA",
+            "D": "all of the above"
+        },
+        "Answer": "D"
+    },
+    {
+        "ID": 600,
+        "Question": "QN=15 The __________ module handles multiple levels of interrupt signals.",
+        "Choices": {
+            "A": "interrupt control",
+            "B": "incrementer address latch",
+            "C": "serial I/O control",
+            "D": "decrementer address latch"
+        },
+        "Answer": "D"
+    }
+]
