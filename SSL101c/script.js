@@ -31,11 +31,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const B = document.createElement("div");
         const C = document.createElement("div");
         const D = document.createElement("div");
-        answerText.classList.add("mt-2", "question-choice", "text-blue-500");
-        A.classList.add("mt-2", "text-black");
-        B.classList.add("mt-4", "text-black");
-        C.classList.add("mt-4", "text-black");
-        D.classList.add("mt-4", "text-black");
+        answerText.classList.add("mt-2", "question-choice");
+        A.classList.add("mt-2");
+        B.classList.add("mt-4");
+        C.classList.add("mt-4");
+        D.classList.add("mt-4");
         answerText.textContent = "Lựa chọn";
         A.textContent = "A) " + question.Choices.A;
         B.textContent = "B) " + question.Choices.B;
