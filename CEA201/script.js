@@ -24,8 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           const questionText = document.createElement("div");
           questionText.classList.add("mt-2", "question-text"); // Add class for search
-          console.log(question.Question);
-          questionText.innerHTML = question.Question.replaceAll('\n', '<br>');
+          questionText.textContent = question.Question;
 
           let answerText = null;
           if (Object.keys(question.Choices).length > 0) {
@@ -48,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
               "Đáp án : " +
               "<br>" +
               "<span class='text-green-600'>" +
-              question.Answer.replaceAll('\n', '<br>') +
+              question.Answer +
               "</span>";
 
           const divider = document.createElement("hr");
