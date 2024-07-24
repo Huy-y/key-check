@@ -1,0 +1,68 @@
+.question-card {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* Chế độ sáng */
+  body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Chế độ tối */
+  .dark {
+    background-color: #2f2f2f;
+    color: #ffffff;
+  }
+  
+  /* Chế độ sáng */
+  .fa-sun {
+    color: #ffc107;
+  }
+  
+  /* Chế độ tối */
+  .fa-moon {
+    color: #ffffff;
+  }
+  
+  /* Chế độ sáng */
+  .dark .question-card {
+    border-color: #ffffff;
+    background-color: #4d4d4d;
+    color: #ffffff;
+  }
+  
+  .dark #searchInput {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .question-choice {
+    color: #000000;
+  }
+
+  .dark .question-choice {
+    color: #ffe600;
+  }
+  
+  .dark .A,
+  .dark .B,
+  .dark .C,
+  .dark .D {
+    color: #ffffff;
+  }
+  
+  /* Chế độ tối */
+  .question-card {
+    background-color: #ffffff;
+  }
+  
+  .dark .divider {
+    border: 0.5px dashed #ffffff;
+  }
+  
+  .divider {
+    border: 0.5px dashed #000000;
+  }

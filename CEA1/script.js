@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("CEAA201.json")
+  fetch("CEA1.json")
       .then((response) => response.json())
       .then((data) => {
         const questionsContainer = document.getElementById("questions");
